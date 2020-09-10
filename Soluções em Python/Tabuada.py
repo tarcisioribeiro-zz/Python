@@ -8,7 +8,8 @@ print(emoji.emojize(
 print()
 
 # Pede ao usuário que informe o número que deseja multiplicar
-num = int(input('\033[34mInforme um número de 1 a 10 para calcular a tabauda: \033[m'))
+num = int(
+    input('\033[34mInforme um número de 1 a 10 para calcular a tabauda: \033[m'))
 print()
 
 # Retorna ao usuário a tabuada

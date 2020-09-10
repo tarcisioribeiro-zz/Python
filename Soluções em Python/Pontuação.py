@@ -1,7 +1,8 @@
 print()
 print('Bem vindo a calculadora de pontuação!')
 print()
-partida = int(input('Informe a quantidade de partidas que a equipe disputou: '))
+partida = int(
+    input('Informe a quantidade de partidas que a equipe disputou: '))
 print()
 print('Para computar os resultados, precisamos que digite o resultado.\n\nD - DERROTA\nE - EMPATE\nV - VITÓRIA\n')
 

@@ -1,9 +1,9 @@
-#Pergunta ao usuário a velocidade do objeto
+# Pergunta ao usuário a velocidade do objeto
 print()
 vel = float(input('Informe a velocidade do obejto: '))
 print()
 
-#Retorna a informação ao usário
+# Retorna a informação ao usário
 if(vel < 300):
     print('É um carro.')
 else:
