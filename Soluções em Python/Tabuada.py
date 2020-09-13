@@ -13,6 +13,6 @@ num = int(
 print()
 
 # Retorna ao usuário a tabuada
-for i in range(0, 11):
+for i in range(1, 11):
     print('\033[34m{} x {} = {} \033[m'.format(i, num, (i*num)))
 print()
