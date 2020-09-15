@@ -32,3 +32,6 @@ while opc != 0:
         print()
         print('Resultado: {} + {} = {:.2f}.'.format(n1, n2, (n1 / n2)))
         print()
+    if(opc == 0):
+        print('Desligando calculadora...')
+        print('------------------------ ')
