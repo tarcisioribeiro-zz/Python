@@ -14,4 +14,10 @@ while opc != 0:
         print()
         print('Resultado: {} + {} = {}.'.format(n1, n2, (n1 + n2)))
         print()
+    if(opc == 2):
+        n1 = int(input('Informe o primeiro número: '))
+        n2 = int(input('Informe o segundo número: '))
+        print()
+        print('Resultado: {} + {} = {}.'.format(n1, n2, (n1 - n2)))
+        print()
     
