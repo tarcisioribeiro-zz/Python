@@ -11,3 +11,5 @@ print(x)
 batata = 56 ** 2
 
 print(batata)
+
+print('Tchau.')
