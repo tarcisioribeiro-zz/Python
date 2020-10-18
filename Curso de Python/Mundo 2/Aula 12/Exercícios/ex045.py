@@ -52,7 +52,7 @@ elif computador == 2:  # Computador jogou tesoura
         print()
     elif jogador == 2:  # Jogador jogou tesoura
         print('Empate.')
-        print()    
+        print()
 else:
     print('Jogada inválida.')
     print()
