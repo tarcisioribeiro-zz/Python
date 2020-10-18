@@ -5,7 +5,7 @@ m = 0
 n = 0
 for c in range(0, 7):
     p = int(input('Informe sua idade: '))
-    if(p < 18):
+    if(p < 21):
         n += 1
     else:
         m += 1
