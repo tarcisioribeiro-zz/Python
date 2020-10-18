@@ -1,4 +1,4 @@
-#Média de duas notas
+# Média de duas notas
 n1 = float(input('Informe sua primeira nota: '))
 print()
 n2 = float(input('Informe a segunda nota: '))
