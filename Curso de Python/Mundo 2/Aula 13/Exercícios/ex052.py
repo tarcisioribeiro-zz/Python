@@ -13,14 +13,10 @@ for c in range(1, n + 1):
     print('{} '.format(c), end='')
 print()
 if(cont == 2):
-    print('\n\033[mO número {} foi divisível {} vezes, ele é um número primo.'.format(n, cont)) 
+    print('\n\033[mO número {} foi divisível {} vezes, ele é um número primo.'.format(
+        n, cont))
     print()
 else:
-    print('\n\033[mO número {} foi divisível {} vezes, ele não é um número primo.'.format(n, cont))
+    print('\n\033[mO número {} foi divisível {} vezes, ele não é um número primo.'.format(
+        n, cont))
     print()
-# cont += 1
-# if(cont == 2):
-#     print('O número {} foi divisível {} vezes. Ele é um número primo.'.format(n, cont))
-# else:
-#     print('O número {} foi divisível {} vezes. Ele não é um número primo.'.format(n, cont))
-# print()
