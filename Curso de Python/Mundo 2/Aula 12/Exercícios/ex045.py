@@ -20,7 +20,7 @@ print('KEN')
 print('PÔ')
 print('==' * 20)
 print('O computador escolheu: {}.'.format(itens[computador]))
-print('O jogador jogou {}'.format(itens[jogador]))
+print('O jogador jogou {}.'.format(itens[jogador]))
 print('==' * 20)
 print()
 if computador == 0:  # Computador jogou pedra
