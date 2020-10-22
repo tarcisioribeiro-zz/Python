@@ -1,28 +1,40 @@
 # Jogo do Jokenpô
 
 from random import randint
+from time import sleep
 import emoji
+import time
 
 print()
 print('JOKENPÔ')
 print()
-
+print('Para jogar, selecione o número e aperte enter.')
+print()
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)
 
 print(emoji.emojize(
-    'Suas opções são: \n\n[ 0 ] Pedra :bomb: \n[ 1 ] Papel :page_facing_up: \n[ 2 ] Tesoura :scissors:'))
+    'Suas opções são: \n\n[ 0 ] Pedra :bomb: \n[ 1 ] Papel :page_facing_up: \n[ 2 ] Tesoura :scissors:', use_aliases=True))
 print()
+
 jogador = int(input('Qual a sua jogada? '))
+
 print()
 print('JO')
+sleep(1)
 print('KEN')
+sleep(1)
 print('PÔ')
+sleep(1)
+print()
 print('==' * 20)
 print('O computador escolheu: {}.'.format(itens[computador]))
+sleep(1)
 print('O jogador jogou {}.'.format(itens[jogador]))
+sleep(1)
 print('==' * 20)
 print()
+sleep(1)
 if computador == 0:  # Computador jogou pedra
     if jogador == 0:  # Jogador jogou pedra
         print('Deu Empate.')
