@@ -36,6 +36,15 @@ if(fase == 1):
     print()
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou! \n\n:red_car:_:evergreen_tree:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:__:evergreen_tree:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:___:evergreen_tree:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:____:evergreen_tree:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:_____:evergreen_tree:', use_aliases=True))
+        sleep(1)
         print()
     else:
         print(emoji.emojize(' :boom::boom::boom::boom::boom: ', use_aliases=True))
@@ -70,6 +79,15 @@ if(fase == 2):
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou! \n\n:red_car:_:palm_tree:', use_aliases=True))
         print()
+        print(emoji.emojize(':red_car:__:palm_tree:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:___:palm_tree:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:____:palm_tree:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:_____:palm_tree:', use_aliases=True))
+        sleep(1)
+        print()
     else:
         print(emoji.emojize(':boom::boom::boom::boom::boom:', use_aliases=True))
         print()
@@ -103,11 +121,19 @@ if(fase == 3):
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou! \n\n:red_car:_:cactus:', use_aliases=True))
         print()
+        print(emoji.emojize(':red_car:__:cactus:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:___:cactus:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:____:cactus:', use_aliases=True))
+        sleep(1)
+        print(emoji.emojize(':red_car:_____:cactus:', use_aliases=True))
+        sleep(1)
+        print()
     else:
         print(emoji.emojize(':boom::boom::boom::boom::boom:', use_aliases=True))
         print()
 else:
-    print()
     print('Opção inválida. Jogo encerrado.')
     print()
     
