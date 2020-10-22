@@ -78,7 +78,7 @@ if(fase == 2):
     print()
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou! \n\n:red_car:_:palm_tree:', use_aliases=True))
-        print()
+        sleep(1)
         print(emoji.emojize(':red_car:__:palm_tree:', use_aliases=True))
         sleep(1)
         print(emoji.emojize(':red_car:___:palm_tree:', use_aliases=True))
@@ -120,7 +120,7 @@ if(fase == 3):
     print()
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou! \n\n:red_car:_:cactus:', use_aliases=True))
-        print()
+        sleep(1)
         print(emoji.emojize(':red_car:__:cactus:', use_aliases=True))
         sleep(1)
         print(emoji.emojize(':red_car:___:cactus:', use_aliases=True))
