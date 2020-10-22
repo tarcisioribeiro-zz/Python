@@ -25,13 +25,13 @@ print('==' * 20)
 print()
 if computador == 0:  # Computador jogou pedra
     if jogador == 0:  # Jogador jogou pedra
-        print('Empate.')
+        print('Deu Empate.')
         print()
     elif jogador == 1:  # Jogador jogou papel
-        print('O jogador venceu.')
+        print('O jogador venceu!')
         print()
     elif jogador == 2:  # Jogador jogou tesoura
-        print('O computador venceu.')
+        print('O computador venceu!')
         print()
 elif computador == 1:  # Computador jogou papel
     if jogador == 0:  # Jogador jogou pedra
