@@ -7,5 +7,6 @@ while (n != 999):
     cont += 1
     soma += n
 print()
-print('Foram digitados {} números e a soma entre eles é de {}.'.format(cont, soma))
+print('Foram digitados {} números e a soma entre eles é de {}.'.format(
+    cont, (soma - 999)))
 print()
