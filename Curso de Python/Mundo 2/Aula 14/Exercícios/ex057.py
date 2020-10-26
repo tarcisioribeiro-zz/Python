@@ -1,7 +1,5 @@
 print()
-s = ''
-while (s != 'M' and s != 'F'):
-    s = str(input('Informe o seu sexo: '))
-    if s != 'M' and s != 'F':
-        print('Não entendi o que você digitou. Tente novamente.')
-print()
+sexo = str(input('Informe o seu sexo: ')).strip().upper()[0]
+while (sexo not in 'MmFf'):
+    sexo = str(input('Dados inválidos. Digite o sexo novamente: ')).strip().upper()[0]
+print('Sexo {} registrado com Sucesso.'.format(sexo))
