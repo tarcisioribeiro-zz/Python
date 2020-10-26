@@ -7,7 +7,8 @@ n2 = int(input('Informe um segundo número: '))
 print()
 while (opcao != 5):
     print()
-    opcao = int(input('Escolha uma opção: \n\n[ 1 ] Somar\n[ 2 ] Multiplicar\n[ 3 ] Maior dos dois números\n[ 4 ] Entre com novos números\n[ 5 ] Sair do programa\n\nDigite aqui a sua opção: '))
+    opcao = int(input(
+        'Escolha uma opção: \n\n[ 1 ] Somar\n[ 2 ] Multiplicar\n[ 3 ] Maior dos dois números\n[ 4 ] Entre com novos números\n[ 5 ] Sair do programa\n\nDigite aqui a sua opção: '))
     sleep(1)
     print()
     if(opcao == 1):
