@@ -22,6 +22,7 @@ for i in range(1, jogos + 1):
     elif(resultado == 'V'):
         pontos += 3
         vitoria += 1
+media = (pontos / (jogos * 3)) * 100
 print()
-print('A pontuação total da equipe foi de {} pontos, com {} derrotas, {} empates e {} vitórias. O aproveitamento da equipe foi de {:.2f}%.'.format(pontos, derrota, empate, vitoria, ((pontos / jogos * 3))))
+print('A pontuação total da equipe foi de {} pontos, com {} derrotas, {} empates e {} vitórias. O aproveitamento da equipe foi de {:.2f}%.'.format(pontos, derrota, empate, vitoria, media))
 print()
