@@ -1,6 +1,6 @@
 import emoji
 print()
-print(emoji.emojize('Média de pontuação no campeonato :bomb:', use_aliases=True))
+print(emoji.emojize('Média de pontuação no campeonato :soccer::soccer::soccer:', use_aliases=True))
 print()
 pontos = 0
 empate = 0
@@ -24,5 +24,6 @@ for i in range(1, jogos + 1):
         vitoria += 1
 media = (pontos / (jogos * 3)) * 100
 print()
-print('A pontuação total da equipe foi de {} pontos, com {} derrotas, {} empates e {} vitórias. O aproveitamento da equipe foi de {:.2f}%.'.format(pontos, derrota, empate, vitoria, media))
+print('A pontuação total da equipe foi de {} pontos, com {} derrotas, {} empates e {} vitórias. O aproveitamento da equipe foi de {:.2f}%.'.format(
+    pontos, derrota, empate, vitoria, media))
 print()
