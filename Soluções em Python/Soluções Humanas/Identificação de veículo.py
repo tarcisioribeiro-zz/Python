@@ -12,7 +12,7 @@ if(vel <= 300):
 elif(vel > 300 and vel <= 450):
     print(emoji.emojize('É um helicóptero :helicopter:.', use_aliases=True))
 elif(vel > 450 and vel <= 2750):
-    print('É um avião.')
+    print(emoji.emojize('É um avião :airplane:.', use_aliases=True))
 else:
     print('Objeto muito veloz, não foi possível reconhecer.')
 print()
