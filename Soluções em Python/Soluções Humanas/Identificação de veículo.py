@@ -1,5 +1,5 @@
+#Bloco de importação de bibliotecas
 import emoji
-
 
 # Pergunta ao usuário a velocidade do objeto
 print()
