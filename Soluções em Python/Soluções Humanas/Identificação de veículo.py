@@ -1,4 +1,4 @@
-#Bloco de importação de bibliotecas
+# Bloco de importação de bibliotecas
 import emoji
 
 # Pergunta ao usuário a velocidade do objeto
@@ -14,5 +14,6 @@ elif(vel > 300 and vel <= 450):
 elif(vel > 450 and vel <= 2750):
     print(emoji.emojize('É um avião :airplane:.', use_aliases=True))
 else:
-    print(emoji.emojize('Objeto muito veloz, não foi possível reconhecer :star:.', use_aliases=True))
+    print(emoji.emojize(
+        'Objeto muito veloz, não foi possível reconhecer :star:.', use_aliases=True))
 print()
