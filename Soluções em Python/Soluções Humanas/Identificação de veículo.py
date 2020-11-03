@@ -3,14 +3,14 @@ import emoji
 
 # Pergunta ao usuário a velocidade do objeto
 print()
-vel = float(input('Informe a velocidade do obejto: '))
+vel = float(input('Informe a velocidade do objeto: '))
 print()
 
 # Retorna a informação ao usário
 if(vel <= 300):
-    print('É um carro.')
+    print(emoji.emojize('É um carro :car:.', use_aliases=True))
 elif(vel > 300 and vel <= 450):
-    print('É um helicóptero.')
+    print(emoji.emojize('É um helicóptero :helicopter:.', use_aliases=True))
 elif(vel > 450 and vel <= 2750):
     print('É um avião.')
 else:
