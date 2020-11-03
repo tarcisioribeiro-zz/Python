@@ -1,3 +1,6 @@
+import emoji
+
+
 # Pergunta ao usuário a velocidade do objeto
 print()
 vel = float(input('Informe a velocidade do obejto: '))
