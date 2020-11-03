@@ -4,8 +4,10 @@ vel = float(input('Informe a velocidade do obejto: '))
 print()
 
 # Retorna a informação ao usário
-if(vel < 300):
+if(vel <= 300):
     print('É um carro.')
-else:
+elif(vel > 300 and vel <= 450):
+    print('É um helicóptero.')
+elif(vel > 450):
     print('É um avião.')
 print()
