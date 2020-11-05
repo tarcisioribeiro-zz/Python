@@ -1,7 +1,0 @@
-print()
-n1 = str(input('Informe seu nome: '))
-print()
-n2 = str(input('Informe seu nome: '))
-print()
-print('Os nomes são {} e {}.'.format(n1, n2))
-print()
