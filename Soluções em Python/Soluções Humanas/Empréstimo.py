@@ -1,5 +1,0 @@
-print()
-valor = int(input('Informe o valor do empréstimo: '))
-print()
-print('O valor dos juros é de: R$ {:.2f}.'.format(valor * 0.05))
-print()
