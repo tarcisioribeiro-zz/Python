@@ -3,7 +3,7 @@
 print()
 p = int(input('Informe o primeiro termo: '))
 print()
-r = int(input('Informe a razão da progessão: '))
+r = int(input('Informe a razão da progressão: '))
 print()
 d = p + (10 - 1) * r
 

@@ -1,7 +1,7 @@
 print()
 primeiro = int(input('Informe o primeiro termo da PA: '))
 print()
-razao = int(input('Informe a razão da PA: '))
+razão = int(input('Informe a razão da PA: '))
 print()
 termo = primeiro
 cont = 1
@@ -11,7 +11,7 @@ while mais != 0:
     total = total + mais
     while cont <= total:
         print('{} -> '.format(termo), end='')
-        termo += razao
+        termo += razão
         cont += 1
     print('Pausa.')
     print()

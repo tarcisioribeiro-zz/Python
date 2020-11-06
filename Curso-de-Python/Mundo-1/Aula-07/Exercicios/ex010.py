@@ -8,9 +8,9 @@ carteira = float(input('Informe quanto você tem na sua carteira: '))
 print()
 
 # Bloco de cálculo
-dolar = carteira / 5.47
+dólar = carteira / 5.47
 
 # Bloco de saída
 print('Você pode comprar $ {:.2f} dólares com R$ {} reais na carteira.'.format(
-    dolar, carteira))
+    dólar, carteira))
 print()

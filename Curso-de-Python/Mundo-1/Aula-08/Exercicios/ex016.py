@@ -8,7 +8,7 @@ print()
 # Bloco de entrada
 num = float(input('Informe um número real: '))
 
-# Bloco de cálcul0
+# Bloco de cálculo
 inteiro = trunc(num)
 
 # Bloco de saída

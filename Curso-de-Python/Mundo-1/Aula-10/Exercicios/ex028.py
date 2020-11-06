@@ -9,7 +9,7 @@ print()
 npc = randint(0, 5)
 
 # Pergunta ao usuário o número em que o computador está pensando
-print('Vamos brincar? Estou pensando em um número de 0 a 5. Tente advinhar!!!')
+print('Vamos brincar? Estou pensando em um número de 0 a 5. Tente adivinhar!!!')
 print()
 nuser = int(input('Qual o número em que estou pensando? '))
 print()

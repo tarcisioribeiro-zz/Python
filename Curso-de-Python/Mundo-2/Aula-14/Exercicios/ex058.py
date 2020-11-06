@@ -1,6 +1,6 @@
 from random import randint
 print()
-print('Tente advinhar o número que estou pensando!')
+print('Tente adivinhar o número que estou pensando!')
 print()
 npc = randint(0, 10)
 nuser = -1

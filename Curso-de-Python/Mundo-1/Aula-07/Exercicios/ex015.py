@@ -13,5 +13,5 @@ print()
 valor = (dias * 60) + (dist * 0.15)
 
 # Bloco de saída
-print('O valor pago pelo alguel do carro é de R$ {}.'.format(valor))
+print('O valor pago pelo aluguel do carro é de R$ {}.'.format(valor))
 print()
