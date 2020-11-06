@@ -2,7 +2,7 @@ from time import sleep
 import emoji
 import time
 print()
-print('Bem vindo a calculadora de pontuação!')
+print(emoji.emojize('Bem vindo a calculadora de pontuação! :soccer:', use_aliases=True))
 print()
 partida = int(
     input('Informe a quantidade de partidas que a equipe disputou: '))
