@@ -10,7 +10,7 @@ print()
 if(fase == 1):
     print()
     print(emoji.emojize('Fase da floresta ' +
-                        (' :evergreen_tree:' * 5), use_aliases=True))
+                        (':evergreen_tree:' * 5), use_aliases=True))
     print()
     for i in range(11, 1, -1):
         print(emoji.emojize(':evergreen_tree:' +
@@ -26,7 +26,7 @@ if(fase == 1):
         print()
         sleep(1)
         for i in range(1, 6):
-            print(emoji.emojize(' :red_car:' + '_' * i +
+            print(emoji.emojize(':red_car:' + '_' * i +
                                 ':evergreen_tree:', use_aliases=True))
             sleep(1)
         print()
@@ -39,7 +39,7 @@ if(fase == 2):
     print()
     for i in range(11, 1, -1):
         print(emoji.emojize(':palm_tree:' + ('_' * i) +
-                            ':red_car: ', use_aliases=True))
+                            ':red_car:', use_aliases=True))
         sleep(1)
     print()
     escolha = str(
@@ -51,7 +51,7 @@ if(fase == 2):
         print()
         sleep(1)
         for i in range(1, 6):
-            print(emoji.emojize(':red_car: ' + '_' *
+            print(emoji.emojize(':red_car:' + '_' *
                                 i + ':palm_tree:', use_aliases=True))
             sleep(1)
         print()
@@ -60,7 +60,7 @@ if(fase == 2):
         print()
 if(fase == 3):
     print()
-    print(emoji.emojize('Fase do deserto ' + (' :cactus:' * 5), use_aliases=True))
+    print(emoji.emojize('Fase do deserto ' + (':cactus:' * 5), use_aliases=True))
     print()
     for i in range(11, 1, -1):
         print(emoji.emojize(':cactus:' + ('_' * i) + ':red_car:', use_aliases=True))
