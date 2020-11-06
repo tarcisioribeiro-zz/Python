@@ -23,6 +23,7 @@ if(fase == 1):
     print()
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou! '))
+        print()
         sleep(1)
         for i in range(1, 6):
             print(emoji.emojize(' :red_car:' + '_' * i +
@@ -47,6 +48,7 @@ if(fase == 2):
     print()
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou!'))
+        print()
         sleep(1)
         for i in range(1, 6):
             print(emoji.emojize(':red_car: ' + '_' *
@@ -70,6 +72,7 @@ if(fase == 3):
     print()
     if(escolha == 'desviar'):
         print(emoji.emojize('Ufa! o Carrinho desviou!'))
+        print()
         sleep(1)
         for i in range(1, 6):
             print(emoji.emojize(':red_car:' + '_' *
