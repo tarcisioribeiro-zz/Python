@@ -1,3 +1,6 @@
+from time import sleep
+import emoji
+import time
 print()
 print('Bem vindo a calculadora de pontuação!')
 print()
