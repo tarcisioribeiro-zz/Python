@@ -15,7 +15,8 @@ pontuação = 0
 resultado = ''
 
 for i in range(1, partida + 1):
-    resultado = str(input('Informe o resultado da {}ª partida: '.format(i)))
+    resultado = str(
+        input('Informe o resultado da {}ª partida: '.format(i))).upper().strip(1)
     sleep(1)
     if(resultado == 'D'):
         pontuação += 0
