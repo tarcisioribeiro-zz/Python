@@ -22,3 +22,23 @@ while destino != 'L':
     print()
     if(destino == 'J'):
         print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    else:
+        print('Opção não reconhecida, tente novamente.')
+        time.sleep(1)
+print()
