@@ -1,8 +1,13 @@
 import emoji
-from time import sleep
+import time
+import datetime
+now = datetime.datetime.now()
 print()
-sleep(1)
+time.sleep(1)
+print(emoji.emojize('{} :earth_americas:', use_aliases=True).format(now))
+print()
+time.sleep(1)
 print(emoji.emojize('Bem vindo ao jogo da cobrinha! :snake:', use_aliases=True))
-sleep(1)
+time.sleep(1)
 print()
-sleep(1)
+time.sleep(1)
