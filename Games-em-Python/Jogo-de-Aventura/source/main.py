@@ -1,3 +1,4 @@
+from time import sleep
 import emoji
 import time
 import datetime
@@ -16,29 +17,37 @@ time.sleep(1)
 print()
 destino = ''
 while destino != 'L':
-    destino = str(int(input(
-        'Qual o destino deseja seguir: \n\nJapão\n:Coréia do Sul\nChina\nEstados Unidos\nFrança\nEspanha\nItália\nRússia\nReino Unido\nAlemanha\n\nDigite aqui sua opção: ', use_aliases=True))).strip().upper()
+    destino = str(input('Qual o destino deseja seguir: \n\nJapão\nCoréia do Sul\nChina\nEstados Unidos\nFrança\nEspanha\nItália\nRússia\nReino Unido\nAlemanha\n\nDigite aqui sua opção: ')).upper().strip()
     time.sleep(1)
     print()
     if(destino == 'J'):
-        print()
-    elif(destino == ''):
-        print()
-    elif(destino == ''):
-        print()
-    elif(destino == ''):
-        print()
-    elif(destino == ''):
-        print()
-    elif(destino == ''):
-        print()
-    elif(destino == ''):
-        print()
-    elif(destino == ''):
-        print()
-    elif(destino == ''):
-        print()
-    else:
-        print('Opção não reconhecida, tente novamente.')
+        print(emoji.emojize(' :airplane: ' * 10, use_aliases=True))
         time.sleep(1)
+        print()
+        pegar = ''
+        destino = ''
+        print('Bem vindo ao japão!')
+        time.sleep(1)
+        print()
+        while pegar != 'N':
+            pegar = str(input(emoji.emojize(
+                'O que deseja pegar?\n\n:bike: Bicicleta\n:car: Carro\n:bullettrain_side: Trem Bala\n\nEscreva aqui sua opção: ', use_aliases=True))).strip().upper()
+            time.sleep(1)
+            print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
+    elif(destino == ''):
+        print()
 print()
