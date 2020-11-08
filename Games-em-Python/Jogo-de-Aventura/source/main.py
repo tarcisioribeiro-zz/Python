@@ -17,8 +17,8 @@ time.sleep(1)
 print()
 destino = ''
 while destino != 999:
-    destino = str(input(
-        'Qual o destino deseja seguir: \n\n[ 1 ] Japão\n[ 2 ] Coréia do Sul\n[ 3 ] China\n[ 4 ] Estados Unidos\n[ 5 ] França\n[ 6 ]Espanha\n[ 7 ] Itália\n[ 8 ] Rússia\n[ 9 ] Reino Unido\n[10] Alemanha\n\nDigite aqui sua opção: ')).upper().strip()
+    destino = int(input(
+        'Qual o destino deseja seguir: \n\n[ 1 ] Japão\n[ 2 ] Coréia do Sul\n[ 3 ] China\n[ 4 ] Estados Unidos\n[ 5 ] França\n[ 6 ] Espanha\n[ 7 ] Itália\n[ 8 ] Rússia\n[ 9 ] Reino Unido\n[10] Alemanha\n\nDigite aqui sua opção: '))
     time.sleep(1)
     print()
     if(destino == 1):
@@ -30,10 +30,30 @@ while destino != 999:
         time.sleep(1)
         print()
         while pegar != 999:
-            pegar = str(input(emoji.emojize(
-                'O que deseja pegar?\n\n:bike: [ 1 ] Bicicleta\n:car: [ 2 ] Carro\n:bullettrain_side: [ 3 ] Trem Bala\n\nEscreva aqui sua opção: ', use_aliases=True))).strip().upper()
+            pegar = int(input(emoji.emojize(
+                'O que deseja pegar?\n\n:bike: [ 1 ] Bicicleta\n:car: [ 2 ] Carro\n:bullettrain_side: [ 3 ] Trem Bala\n\nEscreva aqui sua opção: ', use_aliases=True)))
             time.sleep(1)
             print()
+            if(pegar == 1):
+                print(emoji.emojize(' :bike: ' * 30, use_aliases=True))
+                time.sleep(1)
+                print()
+            elif(pegar == 2):
+                print(emoji.emojize(' :car: ' * 15, use_aliases=True))
+                time.sleep(1)
+                print()
+            elif(pegar == 3):
+                print(emoji.emojize(' :bullettrain_side: ' * 5, use_aliases=True))
+                time.sleep(1)
+                print()
+            elif(pegar == 999):
+                print('Ok! Esperamos que volte em breve!')
+                time.sleep(1)
+                print()
+            else:
+                print('Não reconheço essa opção. Tente novamente.')
+                time.sleep(1)
+                print()
     elif(destino == 2):
         print()
     elif(destino == 3):
@@ -60,3 +80,5 @@ while destino != 999:
     else:
         print('Opção não reconhecida. Informe uma opção válida ou digite 999 para sair.')
 print()
+time.sleep(1)
+print(emoji.emojize('Acesse meu Github :octocat:! https://github.com/tarcisioribeiro', use_aliases=True))
