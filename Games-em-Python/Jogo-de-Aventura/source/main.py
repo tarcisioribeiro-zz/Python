@@ -99,7 +99,7 @@ while destino != 999:
             print()
             if(pegar == 1):
                 print(
-                    'A distância até Tokyo é de 15 Km, você gastará 45 minutos de bicicleta.')
+                    'A distância até Seoul é de 15 Km, você gastará 45 minutos de bicicleta.')
                 time.sleep(1)
                 print()
                 print(emoji.emojize(' :bike: ' * 45, use_aliases=True))
@@ -111,7 +111,7 @@ while destino != 999:
                 break
             elif(pegar == 2):
                 print(
-                    'A distância até Tokyo é de 10 Km, você gastará 22 minutos de carro.')
+                    'A distância até Seoul é de 15 Km, você gastará 22 minutos de carro.')
                 time.sleep(1)
                 print()
                 print(emoji.emojize(' :car: ' * 22, use_aliases=True))
@@ -142,7 +142,61 @@ while destino != 999:
                 time.sleep(1)
                 print()
     elif(destino == 3):
+        print(emoji.emojize(' :airplane: ' * 15, use_aliases=True))
+        time.sleep(1)
+        pegar = 0
+        print('Bem vindo a China!')
+        time.sleep(1)
         print()
+        while pegar != 999:
+            pegar = int(input(emoji.emojize(
+                'O que deseja pegar?\n\n:bike: [ 1 ] Bicicleta\n:car: [ 2 ] Carro\n:bullettrain_side: [ 3 ] Trem Bala\n\nEscreva aqui sua opção: ', use_aliases=True)))
+            time.sleep(1)
+            print()
+            if(pegar == 1):
+                print(
+                    'A distância até Beijing é de 20 Km, você gastará 60 minutos de bicicleta.')
+                time.sleep(1)
+                print()
+                print(emoji.emojize(' :bike: ' * 60, use_aliases=True))
+                time.sleep(1)
+                print()
+                print('Parabéns, você chegou!')
+                time.sleep(1)
+                print()
+                break
+            elif(pegar == 2):
+                print(
+                    'A distância até Beijing é de 20 Km, você gastará 30 minutos de carro.')
+                time.sleep(1)
+                print()
+                print(emoji.emojize(' :car: ' * 30, use_aliases=True))
+                time.sleep(1)
+                print()
+                print('Parabéns, você chegou!')
+                time.sleep(1)
+                print()
+                break
+            elif(pegar == 3):
+                print(
+                    'A distância Beijing é de 20 Km, você gastará 10 minutos de trem-bala.')
+                time.sleep(1)
+                print()
+                print(emoji.emojize(' :bullettrain_side: ' * 10, use_aliases=True))
+                time.sleep(1)
+                print()
+                print('Parabéns, você chegou!')
+                time.sleep(1)
+                print()
+                break
+            elif(pegar == 999):
+                print('Ok! Esperamos que volte em breve!')
+                time.sleep(1)
+                print()
+            else:
+                print('Não reconheço essa opção. Tente novamente.')
+                time.sleep(1)
+                print()
     elif(destino == 4):
         print()
     elif(destino == 5):
