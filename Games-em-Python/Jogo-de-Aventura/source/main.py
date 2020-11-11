@@ -7,7 +7,7 @@ import pygame
 from pygame import mixer
 
 #Começa o player
-pygame.mixer.init()
+mixer.init()
 
 # Bloco de sáida que dá as boas vindas ao usuário
 now = datetime.datetime.now()
@@ -15,15 +15,15 @@ print()
 time.sleep(1)
 print(emoji.emojize('{} :earth_americas:', use_aliases=True).format(now))
 print()
-pygame.mixer.music.load('sounds/correndo.mp3')
-pygame.mixer.music.play()
+mixer.music.load('library/sounds/correndo.mp3')
+mixer.music.play()
 time.sleep(25)
 print(emoji.emojize(
     'Bem vindo ao jogo de aventura! :runner: :runner: :runner:', use_aliases=True))
 time.sleep(1)
 print()
-pygame.mixer.music.load('sounds/decolagem.mp3')
-pygame.mixer.music.play()
+mixer.music.load('library/sounds/decolagem.mp3')
+mixer.music.play()
 print(emoji.emojize('Vamos pegar um avião! :airplane:', use_aliases=True))
 time.sleep(1)
 print()
@@ -42,8 +42,10 @@ while destino != 999:
         time.sleep(1)
         print()
         pegar = 0
+        mixer.music.load('library/sounds/japão.mp3')
+        mixer.music.play()
         print('Bem vindo ao Japão!')
-        time.sleep(1)
+        time.sleep(10)
         print()
         while pegar != 999:
             pegar = int(input(emoji.emojize(
@@ -275,14 +277,16 @@ while destino != 999:
     elif(destino == 10):
         print()
     elif(destino == 999):
+        mixer.music.load('library/sounds/fim_aventura.mp3')
+        mixer.music.play()
         print('Finalizando aventura...')
-        time.sleep(1)
+        time.sleep(10)
         print()
         break
     else:
         print('Opção não reconhecida. Informe uma opção válida ou digite 999 para sair.')
 # Bloco de saída final
-print()
 time.sleep(1)
 print(emoji.emojize(
     'Acesse meu Github :octocat:! https://github.com/tarcisioribeiro', use_aliases=True))
+print()
