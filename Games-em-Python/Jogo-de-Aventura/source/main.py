@@ -1,8 +1,13 @@
 # Bloco de importações das bibliotecas
-from time import sleep
+import time
 import emoji
 import time
 import datetime
+import pygame
+from pygame import mixer
+
+#Começa o player
+pygame.mixer.init()
 
 # Bloco de sáida que dá as boas vindas ao usuário
 now = datetime.datetime.now()
@@ -10,11 +15,15 @@ print()
 time.sleep(1)
 print(emoji.emojize('{} :earth_americas:', use_aliases=True).format(now))
 print()
-time.sleep(1)
+pygame.mixer.music.load('sounds/correndo.mp3')
+pygame.mixer.music.play()
+time.sleep(25)
 print(emoji.emojize(
     'Bem vindo ao jogo de aventura! :runner: :runner: :runner:', use_aliases=True))
 time.sleep(1)
 print()
+pygame.mixer.music.load('sounds/decolagem.mp3')
+pygame.mixer.music.play()
 print(emoji.emojize('Vamos pegar um avião! :airplane:', use_aliases=True))
 time.sleep(1)
 print()
