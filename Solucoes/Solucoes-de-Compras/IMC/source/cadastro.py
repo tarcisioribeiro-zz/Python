@@ -1,10 +1,10 @@
 from time import sleep
 
 def Cadastro():
-    nome = str(int(input('Informe seu nome: ')))
+    nome = str(input('Informe seu nome: '))
     sleep(1)
     print()
-    sexo = str(int(input('Informe seu sexo: '))).strip().upper()
+    sexo = str(input('Informe seu sexo: ')).strip().upper()
     sleep(1)
     print()
     peso = float(input('Informe seu peso: '))
