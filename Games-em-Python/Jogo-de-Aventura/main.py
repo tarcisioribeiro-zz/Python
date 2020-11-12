@@ -61,9 +61,9 @@ while destino != 999:
     elif(destino == 8):
         Rússia()
     elif(destino == 9):
-        print()
+        Reino_Unido()
     elif(destino == 10):
-        print()
+        Alemanha()
     elif(destino == 999):
         Saida()
     else:
