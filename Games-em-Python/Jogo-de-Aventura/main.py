@@ -22,10 +22,10 @@ print(emoji.emojize(
     'Bem vindo ao jogo de aventura! :runner: :runner: :runner:', use_aliases=True))
 time.sleep(1)
 print()
-mixer.music.load('library/sounds/decolagem.mp3')
+mixer.music.load('library/sounds/cintos_avião.mp3')
 mixer.music.play()
 print(emoji.emojize('Vamos pegar um avião! :airplane:', use_aliases=True))
-time.sleep(13)
+time.sleep(8)
 print()
 
 # Bloco de entrada que solicita ao usuário a inserção dos seus dados
@@ -38,6 +38,9 @@ while destino != 999:
 
     # Bloco de decisão
     if(destino == 1):
+        mixer.music.load('library/sounds/decolagem.mp3')
+        mixer.music.play()
+        time.sleep(8)
         print(emoji.emojize(' :airplane: ' * 10, use_aliases=True))
         time.sleep(1)
         print()
@@ -71,8 +74,10 @@ while destino != 999:
                     'A distância até Tokyo é de 10 Km, você gastará 15 minutos de carro.')
                 time.sleep(1)
                 print()
+                mixer.music.load('library/sounds/buzina_carro.mp3')
+                mixer.music.play()
                 print(emoji.emojize(' :car: ' * 15, use_aliases=True))
-                time.sleep(1)
+                time.sleep(3)
                 print()
                 print('Parabéns, você chegou!')
                 time.sleep(1)
@@ -83,8 +88,10 @@ while destino != 999:
                     'A distância até Tokyo é de 10 Km, você gastará 5 minutos de trem-bala.')
                 time.sleep(1)
                 print()
+                mixer.music.load('library/sounds/trem_bala.mp3')
+                mixer.music.play()
                 print(emoji.emojize(' :bullettrain_side: ' * 5, use_aliases=True))
-                time.sleep(1)
+                time.sleep(15)
                 print()
                 print('Parabéns, você chegou!')
                 time.sleep(1)
