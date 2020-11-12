@@ -1,4 +1,5 @@
 # Bloco de importações das bibliotecas
+from source.fases.eua import Eua
 from source.fases.china import China
 from source.fases.coréia import Coréia
 from source.fases.japão import Japão
@@ -46,61 +47,7 @@ while destino != 999:
     elif(destino == 3):
         China()
     elif(destino == 4):
-        print(emoji.emojize(' :airplane: ' * 15, use_aliases=True))
-        time.sleep(1)
-        pegar = 0
-        print('Bem vindo aos Estados Unidos!')
-        time.sleep(1)
-        print()
-        while pegar != 999:
-            pegar = int(input(emoji.emojize(
-                'O que deseja pegar?\n\n:bike: [ 1 ] Bicicleta\n:car: [ 2 ] Carro\n:bullettrain_side: [ 3 ] Trem Bala\n\nEscreva aqui sua opção: ', use_aliases=True)))
-            time.sleep(1)
-            print()
-            if(pegar == 1):
-                print(
-                    'A distância até Washington é de 5 Km, você gastará 20 minutos de bicicleta.')
-                time.sleep(1)
-                print()
-                print(emoji.emojize(' :bike: ' * 20, use_aliases=True))
-                time.sleep(1)
-                print()
-                print('Parabéns, você chegou!')
-                time.sleep(1)
-                print()
-                break
-            elif(pegar == 2):
-                print(
-                    'A distância até Washington é de 5 Km, você gastará 10 minutos de carro.')
-                time.sleep(1)
-                print()
-                print(emoji.emojize(' :car: ' * 10, use_aliases=True))
-                time.sleep(1)
-                print()
-                print('Parabéns, você chegou!')
-                time.sleep(1)
-                print()
-                break
-            elif(pegar == 3):
-                print(
-                    'A distância Washington é de 5 Km, você gastará 5 minutos de trem-bala.')
-                time.sleep(1)
-                print()
-                print(emoji.emojize(' :bullettrain_side: ' * 5, use_aliases=True))
-                time.sleep(1)
-                print()
-                print('Parabéns, você chegou!')
-                time.sleep(1)
-                print()
-                break
-            elif(pegar == 999):
-                print('Ok! Esperamos que volte em breve!')
-                time.sleep(1)
-                print()
-            else:
-                print('Não reconheço essa opção. Tente novamente.')
-                time.sleep(1)
-                print()
+        Eua()
     elif(destino == 5):
         print()
     elif(destino == 6):
