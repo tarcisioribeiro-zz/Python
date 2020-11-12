@@ -1,4 +1,5 @@
 # Bloco de importações das bibliotecas
+from source.fases.frança import França
 from source.fases.eua import Eua
 from source.fases.china import China
 from source.fases.coréia import Coréia
@@ -49,7 +50,7 @@ while destino != 999:
     elif(destino == 4):
         Eua()
     elif(destino == 5):
-        print()
+        França()
     elif(destino == 6):
         print()
     elif(destino == 7):
