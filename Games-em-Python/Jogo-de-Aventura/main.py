@@ -1,6 +1,6 @@
 # Bloco de importações das bibliotecas
-from source.japão import Japão
-from source.saída import Saida
+from source.fases.japão import Japão
+from source.decisões.saída import Saida
 import time
 import emoji
 import time
