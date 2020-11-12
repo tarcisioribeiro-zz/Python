@@ -1,4 +1,5 @@
 # Bloco de importações das bibliotecas
+from source.fases.espanha import Espanha
 from source.fases.frança import França
 from source.fases.eua import Eua
 from source.fases.china import China
@@ -20,14 +21,14 @@ print()
 time.sleep(1)
 print(emoji.emojize('Bem vindo! {} :earth_americas:', use_aliases=True).format(now))
 print()
-pygame.mixer.music.load('library/sounds/correndo.mp3')
+pygame.mixer.music.load('library/sounds/main/correndo.mp3')
 pygame.mixer.music.play()
 time.sleep(8)
 print(emoji.emojize(
     'Bem vindo ao jogo de aventura! :runner: :runner: :runner:', use_aliases=True))
 time.sleep(1)
 print()
-pygame.mixer.music.load('library/sounds/cintos_avião.mp3')
+pygame.mixer.music.load('library/sounds/main/cintos_avião.mp3')
 pygame.mixer.music.play()
 print(emoji.emojize('Vamos pegar um avião! :airplane:', use_aliases=True))
 time.sleep(8)
@@ -52,7 +53,7 @@ while destino != 999:
     elif(destino == 5):
         França()
     elif(destino == 6):
-        print()
+        Espanha()
     elif(destino == 7):
         print()
     elif(destino == 8):

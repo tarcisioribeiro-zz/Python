@@ -4,7 +4,7 @@ import time
 import emoji
 
 def China():
-    pygame.mixer.music.load('library/sounds/decolagem.mp3')
+    pygame.mixer.music.load('library/sounds/main/decolagem.mp3')
     pygame.mixer.music.play()
     time.sleep(8)
     print(emoji.emojize(' :airplane: ' * 10, use_aliases=True))
