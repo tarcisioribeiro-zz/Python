@@ -11,7 +11,7 @@ def China():
     time.sleep(1)
     print()
     pegar = 0
-    pygame.mixer.music.load('library/sounds/china.mp3')
+    pygame.mixer.music.load('library/sounds/fases/china.mp3')
     pygame.mixer.music.play()
     print('Bem vindo a China!')
     time.sleep(13)

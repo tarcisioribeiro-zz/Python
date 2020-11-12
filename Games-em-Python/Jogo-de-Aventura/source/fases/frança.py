@@ -11,7 +11,7 @@ def França():
     time.sleep(1)
     print()
     pegar = 0
-    pygame.mixer.music.load('library/sounds/frança.mp3')
+    pygame.mixer.music.load('library/sounds/fases/frança.mp3')
     pygame.mixer.music.play()
     print('Bem vindo a França!')
     time.sleep(7)

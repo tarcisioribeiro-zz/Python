@@ -11,7 +11,7 @@ def Japão():
     time.sleep(1)
     print()
     pegar = 0
-    pygame.mixer.music.load('library/sounds/japão.mp3')
+    pygame.mixer.music.load('library/sounds/fases/japão.mp3')
     pygame.mixer.music.play()
     print('Bem vindo ao Japão!')
     time.sleep(10)

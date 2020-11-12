@@ -11,7 +11,7 @@ def Coréia():
     time.sleep(1)
     print()
     pegar = 0
-    pygame.mixer.music.load('library/sounds/coréia.mp3')
+    pygame.mixer.music.load('library/sounds/fases/coréia.mp3')
     pygame.mixer.music.play()
     print('Bem vindo a Coréia!')
     time.sleep(6)

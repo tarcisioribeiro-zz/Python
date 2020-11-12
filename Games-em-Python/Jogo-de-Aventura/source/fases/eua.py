@@ -11,7 +11,7 @@ def Eua():
     time.sleep(1)
     print()
     pegar = 0
-    pygame.mixer.music.load('library/sounds/eua.mp3')
+    pygame.mixer.music.load('library/sounds/fases/eua.mp3')
     pygame.mixer.music.play()
     print('Bem vindo aos Estados Unidos!')
     time.sleep(7)
