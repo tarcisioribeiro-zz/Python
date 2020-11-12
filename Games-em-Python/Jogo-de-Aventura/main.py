@@ -36,7 +36,6 @@ while destino != 999:
         'Qual o destino deseja seguir: \n\n[ 1 ] Japão\n[ 2 ] Coréia do Sul\n[ 3 ] China\n[ 4 ] Estados Unidos\n[ 5 ] França\n[ 6 ] Espanha\n[ 7 ] Itália\n[ 8 ] Rússia\n[ 9 ] Reino Unido\n[ 10 ] Alemanha\n[ 999 ] Finalizar o programa\n\nDigite aqui sua opção: '))
     time.sleep(1)
     print()
-
     # Bloco de decisão
     if(destino == 1):
         Japão()
