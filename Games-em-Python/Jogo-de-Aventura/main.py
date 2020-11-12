@@ -1,4 +1,6 @@
 # Bloco de importações das bibliotecas
+from source.fases.alemanha import Alemanha
+from source.fases.reino_unido import Reino_Unido
 from source.fases.rússia import Rússia
 from source.fases.itália import Itália
 from source.fases.espanha import Espanha
@@ -14,7 +16,7 @@ import time
 import datetime
 import pygame
 
-#Começa o player
+# Começa o player
 pygame.mixer.init()
 
 # Bloco de sáida que dá as boas vindas ao usuário
@@ -39,8 +41,7 @@ print()
 # Bloco de entrada que solicita ao usuário a inserção dos seus dados
 destino = 0
 while destino != 999:
-    destino = int(input(
-        'Qual o destino deseja seguir: \n\n[ 1 ] Japão\n[ 2 ] Coréia do Sul\n[ 3 ] China\n[ 4 ] Estados Unidos\n[ 5 ] França\n[ 6 ] Espanha\n[ 7 ] Itália\n[ 8 ] Rússia\n[ 9 ] Reino Unido\n[ 10 ] Alemanha\n[ 999 ] Finalizar o programa\n\nDigite aqui sua opção: '))
+    destino = int(input(emoji.emojize('Qual o destino deseja seguir: \n\n[ 1 ] Japão\n[ 2 ] Coréia do Sul\n[ 3 ] China\n[ 4 ] Estados Unidos\n[ 5 ] França\n[ 6 ] Espanha\n[ 7 ] Itália\n[ 8 ] Rússia\n[ 9 ] Reino Unido\n[ 10 ] Alemanha\n[ 999 ] Finalizar o programa\n\nDigite aqui sua opção: ', use_aliases=True)))
     time.sleep(1)
     print()
     # Bloco de decisão
