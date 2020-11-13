@@ -1,6 +1,8 @@
 from emoji import emojize
 from time import sleep
 
+from soma import Soma
+
 print()
 sleep(1)
 print(emojize('Bem vindo à calculadora! :iphone:', use_aliases=True))
@@ -14,7 +16,7 @@ while opção != 0:
     sleep(1)
     print()
     if(opção == 1):
-        print()
+        Soma()
     elif(opção == 2):
         print()
     elif(opção == 3):
