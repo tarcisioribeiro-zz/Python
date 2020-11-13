@@ -5,6 +5,7 @@ from soma import Soma
 from subtração import Subtração
 from multiplicação import Multiplicação
 from divisão import Divisão
+from potenciação import Potenciação
 
 print()
 sleep(1)
@@ -27,7 +28,7 @@ while opção != 0:
     elif(opção == 4):
         Divisão()
     elif(opção == 5):
-        print()
+        Potenciação()
     elif(opção == 6):
         print()
     elif(opção == 0):
