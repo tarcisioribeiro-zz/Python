@@ -33,7 +33,10 @@ while opção != 0:
     elif(opção == 6):
         Resto()
     elif(opção == 0):
-        print()
+        print('Volte sempre!')
+        sleep(1)
+        print('Desligando calculadora...')
+        sleep(1)
     else:
         print('Não reconheci essa opção. Tente novamente')
         sleep(1)
