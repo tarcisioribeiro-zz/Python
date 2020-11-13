@@ -17,6 +17,7 @@ print()
 opção = -1
 
 while opção != 0:
+    sleep(1)
     opção = int(input('O que deseja calcular?\n\n[1] Soma\n[2] Subtração\n[3] Multiplicação\n[4] Divisão\n[5] Potenciação\n[6] Resto da divisão inteira\n[0] Sair do programa\n\nDigite aqui sua opção: ')) 
     sleep(1)
     print()
