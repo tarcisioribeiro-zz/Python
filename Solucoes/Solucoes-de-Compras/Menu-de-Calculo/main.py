@@ -2,6 +2,7 @@ from emoji import emojize
 from time import sleep
 
 from soma import Soma
+from subtração import Subtração
 
 print()
 sleep(1)
@@ -18,7 +19,7 @@ while opção != 0:
     if(opção == 1):
         Soma()
     elif(opção == 2):
-        print()
+        Subtração()
     elif(opção == 3):
         print()
     elif(opção == 4):
