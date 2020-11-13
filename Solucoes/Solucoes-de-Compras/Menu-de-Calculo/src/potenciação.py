@@ -1,5 +1,6 @@
 from time import sleep
 
+
 def Potenciação():
     n1 = int(input('Informe um número: '))
     sleep(1)
