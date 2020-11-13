@@ -1,3 +1,5 @@
+from time import sleep
+
 def Resto():
     n1 = int(input('Informe um número: '))
     print()

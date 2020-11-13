@@ -1,12 +1,12 @@
 from emoji import emojize
 from time import sleep
 
-from soma import Soma
-from subtração import Subtração
-from multiplicação import Multiplicação
-from divisão import Divisão
-from potenciação import Potenciação
-from resto import Resto
+from src.soma import Soma
+from src.subtração import Subtração
+from src.multiplicação import Multiplicação
+from src.divisão import Divisão
+from src.potenciação import Potenciação
+from src.resto import Resto
 
 print()
 sleep(1)
@@ -34,6 +34,8 @@ while opção != 0:
         Resto()
     elif(opção == 0):
         print('Volte sempre!')
+        sleep(1)
+        print()
         sleep(1)
         print('Desligando calculadora...')
         sleep(1)
