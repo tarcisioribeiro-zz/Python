@@ -6,6 +6,7 @@ from subtração import Subtração
 from multiplicação import Multiplicação
 from divisão import Divisão
 from potenciação import Potenciação
+from resto import Resto
 
 print()
 sleep(1)
@@ -30,7 +31,7 @@ while opção != 0:
     elif(opção == 5):
         Potenciação()
     elif(opção == 6):
-        print()
+        Resto()
     elif(opção == 0):
         print()
     else:
