@@ -4,6 +4,7 @@ from time import sleep
 from soma import Soma
 from subtração import Subtração
 from multiplicação import Multiplicação
+from divisão import Divisão
 
 print()
 sleep(1)
@@ -24,7 +25,7 @@ while opção != 0:
     elif(opção == 3):
         Multiplicação()
     elif(opção == 4):
-        print()
+        Divisão()
     elif(opção == 5):
         print()
     elif(opção == 6):
