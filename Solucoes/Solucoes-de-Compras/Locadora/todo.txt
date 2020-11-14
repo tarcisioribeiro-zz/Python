@@ -1,0 +1,3 @@
+Filmes de ação;
+Filmes de aventura;
+Filmes de guerra;
