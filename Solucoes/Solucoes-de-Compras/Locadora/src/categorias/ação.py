@@ -1,4 +1,4 @@
-from catálogo.catálogo_ação import Catálogo_Ação
+from src.catálogo.catálogo_ação import Catálogo_Ação
 from time import sleep
 
 
