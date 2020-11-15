@@ -1,4 +1,5 @@
 from categorias.animação import Animação
+from categorias.comédia import Comédia
 from src.categorias.ação import Ação
 from time import sleep
 import emoji
@@ -31,8 +32,10 @@ while escolha not in 'AÇÃOANIMAÇÃOCOMÉDIADOCUMENTÁRIODRAMAROMANCE':
     print()
     if(escolha == 'AÇÃO'):
         Ação()
-    if(escolha == 'ANIMAÇÃO'):
+    elif(escolha == 'ANIMAÇÃO'):
         Animação()
+    elif(escolha == 'COMÉDIA'):
+        Comédia()
 sleep(1)
 print('Acesse meu github! \n\nhttps://github.com/tarcisioribeiro')
 sleep(1)
