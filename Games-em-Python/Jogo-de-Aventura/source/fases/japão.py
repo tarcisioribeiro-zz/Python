@@ -6,7 +6,7 @@ import emoji
 def Japão():
     pygame.mixer.music.load('library/sounds/main/decolagem.mp3')
     pygame.mixer.music.play()
-    time.sleep(8)
+    time.sleep(10)
     print(emoji.emojize(' :airplane: ' * 10, use_aliases=True))
     time.sleep(1)
     print()
