@@ -4,7 +4,7 @@ import emoji
 
 def Estrutura_veículo():
     veiculo = int(input(emoji.emojize(
-            'O que deseja veiculo?\n\n:bike: [ 1 ] Bicicleta\n:car: [ 2 ] Carro\n:bullettrain_side: [ 3 ] Trem Bala\n\nEscreva aqui sua opção: ', use_aliases=True)))
+            'Qual veículo deseja utilizar?\n\n:bike: [ 1 ] Bicicleta\n:car: [ 2 ] Carro\n:bullettrain_side: [ 3 ] Trem Bala\n\nEscreva aqui sua opção: ', use_aliases=True)))
     time.sleep(1)
     print()
     if(veiculo == 1):
