@@ -3,6 +3,7 @@ import pygame
 import time
 import emoji
 
+
 def Itália():
     print(emoji.emojize(' :airplane: ' * 10, use_aliases=True))
     time.sleep(1)
@@ -16,8 +17,7 @@ def Itália():
     print('Bem vindo a Itália!')
     time.sleep(6)
     print()
-    
+
     Estrutura_veículo()
 
     pass
-
