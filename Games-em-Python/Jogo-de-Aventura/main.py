@@ -35,7 +35,7 @@ print()
 pygame.mixer.music.load('library/sounds/main/cintos_avião.mp3')
 pygame.mixer.music.play()
 print(emoji.emojize('Vamos pegar um avião! :airplane:', use_aliases=True))
-time.sleep(8)
+time.sleep(17)
 print()
 
 # Bloco de entrada que solicita ao usuário a inserção dos seus dados
