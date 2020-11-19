@@ -1,0 +1,3 @@
+def Ladrão():
+    
+    pass
