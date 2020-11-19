@@ -1,3 +1,5 @@
+from source.eventos.chama_evento import Chama_Evento
+
 import pygame
 import time
 import emoji
@@ -18,6 +20,7 @@ def Estrutura_veículo():
         print(emoji.emojize(' :bike: ' * 30, use_aliases=True))
         time.sleep(6)
         print()
+        Chama_Evento()
         print('Parabéns, você chegou!')
         time.sleep(1)
         print()
