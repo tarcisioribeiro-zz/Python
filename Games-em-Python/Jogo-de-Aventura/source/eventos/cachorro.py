@@ -6,7 +6,7 @@ def Cachorro():
     decisão = ''
     mordidas = 0
     while decisão != 'FUGIR' and mordidas < 3:
-        decisão = str(input('Digite fugir para desviar do cachorro: ')).upper()
+        decisão = str(input('Digite fugir para fugir do cachorro: ')).upper()
         time.sleep(1)
         print()
         time.sleep(1)
