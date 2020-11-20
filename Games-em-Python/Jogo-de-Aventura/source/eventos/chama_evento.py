@@ -5,11 +5,11 @@ from source.eventos.caminhão import Caminhão
 from source.eventos.ladrão import Ladrão
 
 def Chama_Evento():
-    evento = randint(1, 3)
-    if(evento == 1):
+    evento = randint(0, 2)
+    if(evento == 0):
         Cachorro()
-    if(evento == 2):
+    if(evento == 1):
         Caminhão()
-    if(evento == 3):
+    if(evento == 2):
         Ladrão()
     pass
