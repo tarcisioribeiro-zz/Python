@@ -2,11 +2,12 @@ import emoji
 import time
 import pygame
 
+
 def Caminhão():
     decisão = ''
-    mordidas = 0
-    while decisão != 'DESVIAR' and mordidas < 3:
-        decisão = str(input('Digite desviar para desviar do caminhão: ')).upper()
+    while decisão != 'DESVIAR':
+        decisão = str(
+            input('Digite desviar para desviar do caminhão: ')).upper()
         time.sleep(1)
         print()
         time.sleep(1)
@@ -16,7 +17,8 @@ def Caminhão():
             time.sleep(1)
         else:
             time.sleep(1)
-            print(emoji.emojize('O caminhão te atropelou!' + ' :truck: ' * 10, use_aliases=True))
+            print(emoji.emojize('O caminhão te atropelou!' +
+                                ' :truck: ' * 10, use_aliases=True))
             time.sleep(1)
             pygame.mixer.music.load('library/sounds/eventos/batida.mp3')
             pygame.mixer.music.play()
