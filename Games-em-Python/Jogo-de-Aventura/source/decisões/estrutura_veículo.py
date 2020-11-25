@@ -21,6 +21,9 @@ def Estrutura_veículo():
         time.sleep(6)
 
         Chama_Evento()
+        pygame.mixer.music.load('library/sounds/decisões/fase_concluída.mp3')
+        pygame.mixer.music.play()
+        time.sleep(10)
         print('Parabéns, você chegou!')
         time.sleep(1)
 
@@ -35,6 +38,9 @@ def Estrutura_veículo():
         time.sleep(3)
 
         Chama_Evento()
+        pygame.mixer.music.load('library/sounds/decisões/fase_concluída.mp3')
+        pygame.mixer.music.play()
+        time.sleep(10)
         print('Parabéns, você chegou!')
         time.sleep(1)
 
@@ -49,6 +55,9 @@ def Estrutura_veículo():
         time.sleep(15)
 
         Chama_Evento()
+        pygame.mixer.music.load('library/sounds/decisões/fase_concluída.mp3')
+        pygame.mixer.music.play()
+        time.sleep(10)
         print('Parabéns, você chegou!')
         time.sleep(1)
 

@@ -24,7 +24,7 @@ def Corpo_Principal():
         pygame.mixer.music.play()
         print(emoji.emojize('Vamos pegar um avião! :airplane:', use_aliases=True))
         time.sleep(17)
-
+        print()
         destino = int(input(emoji.emojize(
             'Qual o destino deseja seguir: \n\n[ 0 ] Brasil\n[ 1 ] Japão\n[ 2 ] Coréia do Sul\n[ 3 ] China\n[ 4 ] Estados Unidos\n[ 5 ] França\n[ 6 ] Espanha\n[ 7 ] Itália\n[ 8 ] Rússia\n[ 9 ] Reino Unido\n[ 10 ] Alemanha\n[ 11 ] México\n[ 12 ] Argentina\n[ 999 ] Finalizar o programa\n\nDigite aqui sua opção: ', use_aliases=True)))
         time.sleep(1)
@@ -59,6 +59,8 @@ def Corpo_Principal():
         elif(destino == 999):
             Saida()
         else:
+            print()
+            time.sleep(1)
             print(
                 'Opção não reconhecida. Informe uma opção válida ou digite 999 para sair.')
 

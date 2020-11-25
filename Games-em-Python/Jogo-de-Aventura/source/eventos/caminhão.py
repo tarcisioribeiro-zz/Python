@@ -23,7 +23,9 @@ def Caminhão():
             pygame.mixer.music.load('library/sounds/eventos/batida.mp3')
             pygame.mixer.music.play()
             time.sleep(5)
-
+            pygame.mixer.music.load('library/sounds/decisões/jogo_perdido.mp3')
+            pygame.mixer.music.play()
+            time.sleep(7)
             time.sleep(1)
             print('Fim de jogo!')
     pass
