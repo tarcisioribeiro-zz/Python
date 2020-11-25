@@ -29,5 +29,8 @@ def Alien():
                 time.sleep(1)
                 pygame.mixer.music.load('library/sounds/eventos/alien_saída.mp3')
                 pygame.mixer.music.play()
-                time.sleep()
+                time.sleep(3)
+                pygame.mixer.music.load('library/sounds/decisões/jogo_perdido.mp3')
+                pygame.mixer.music.play()
+                time.sleep(7)
     pass
