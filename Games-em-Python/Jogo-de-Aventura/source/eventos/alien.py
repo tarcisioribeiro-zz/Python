@@ -5,9 +5,8 @@ import pygame
 def Alien():
     decisão = ''
     tentativas = 0
-    while decisão != 'ESCONDER' and tentativas <= 3:
+    while decisão != 'ESCONDER' and tentativas < 3:
         time.sleep(1)
-        print()
         decisão = str(input('Digite esconder para se esconder: ')).upper()
         time.sleep(1)
         print()
@@ -23,7 +22,7 @@ def Alien():
             time.sleep(3)
             print()
             tentativas += 1
-            if(tentativas > 3):        
+            if(tentativas == 3):        
                 time.sleep(1)
                 print('O Alien te pegou!')
                 time.sleep(1)
@@ -33,4 +32,5 @@ def Alien():
                 pygame.mixer.music.load('library/sounds/decisões/jogo_perdido.mp3')
                 pygame.mixer.music.play()
                 time.sleep(7)
+                print()
     pass
