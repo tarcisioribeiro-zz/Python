@@ -10,5 +10,4 @@ def Bombeiro():
     pygame.mixer.music.load('library/sounds/eventos/bombeiro.mp3')
     pygame.mixer.music.play()
     time.sleep(14)
-    
     pass
