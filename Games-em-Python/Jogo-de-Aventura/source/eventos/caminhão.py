@@ -15,8 +15,8 @@ def Caminhão():
             time.sleep(1)
             print('Você desviou do caminhão!')
             time.sleep(1)
-        else:
             print()
+        else:
             time.sleep(1)
             print(emoji.emojize('O caminhão te atropelou!' +
                                 ' :truck: ' * 10, use_aliases=True))

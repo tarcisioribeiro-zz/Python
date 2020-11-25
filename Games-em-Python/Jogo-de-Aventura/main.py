@@ -27,3 +27,4 @@ Corpo_Principal()
 time.sleep(1)
 print(
     'Acesse meu Github! https://github.com/tarcisioribeiro')
+time.sleep(1)
