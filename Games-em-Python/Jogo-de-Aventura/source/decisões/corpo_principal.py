@@ -22,6 +22,7 @@ def Corpo_Principal():
     while destino != 999:
         pygame.mixer.music.load('library/sounds/main/cintos_avião.mp3')
         pygame.mixer.music.play()
+        print()
         print(emoji.emojize('Vamos pegar um avião! :airplane:', use_aliases=True))
         time.sleep(17)
         print()

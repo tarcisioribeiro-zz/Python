@@ -28,4 +28,5 @@ def Caminhão():
             time.sleep(7)
             time.sleep(1)
             print('Fim de jogo!')
+            break
     pass

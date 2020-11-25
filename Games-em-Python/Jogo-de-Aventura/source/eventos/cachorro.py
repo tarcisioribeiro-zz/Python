@@ -25,7 +25,6 @@ def Cachorro():
             print(emoji.emojize('O cachorro te mordeu!' +
                                 ' :dog: ' * 10, use_aliases=True))
             time.sleep(1)
-            print()
             mordidas += 1
             if(mordidas == 3):
                 pygame.mixer.music.load('library/sounds/decisões/jogo_perdido.mp3')
@@ -33,5 +32,6 @@ def Cachorro():
                 time.sleep(7)
                 print(emoji.emojize('Fim de jogo! :bomb:', use_aliases=True))
                 time.sleep(1)
+                print()
                 break
     pass

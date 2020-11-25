@@ -11,12 +11,16 @@ def Estrutura_veículo():
     time.sleep(1)
 
     if(veiculo == 1):
+        print()
+        time.sleep(1)
         print(
             'A distância até o Centro é de 10 Km, você gastará 30 minutos de bicicleta.')
         time.sleep(1)
 
         pygame.mixer.music.load('library/sounds/decisões/bicicleta.mp3')
         pygame.mixer.music.play()
+        print()
+        time.sleep(1)
         print(emoji.emojize(' :bike: ' * 30, use_aliases=True))
         time.sleep(6)
 
@@ -28,12 +32,16 @@ def Estrutura_veículo():
         time.sleep(1)
 
     elif(veiculo == 2):
+        print()
+        time.sleep(1)
         print(
             'A distância até o Centro é de 10 Km, você gastará 15 minutos de carro.')
         time.sleep(1)
 
         pygame.mixer.music.load('library/sounds/decisões/buzina_carro.mp3')
         pygame.mixer.music.play()
+        print()
+        time.sleep(1)
         print(emoji.emojize(' :car: ' * 15, use_aliases=True))
         time.sleep(3)
 
@@ -45,12 +53,16 @@ def Estrutura_veículo():
         time.sleep(1)
 
     elif(veiculo == 3):
+        print()
+        time.sleep(1)
         print(
             'A distância até o Centro é de 10 Km, você gastará 5 minutos de trem-bala.')
         time.sleep(1)
 
         pygame.mixer.music.load('library/sounds/decisões/trem_bala.mp3')
         pygame.mixer.music.play()
+        print()
+        time.sleep(1)
         print(emoji.emojize(' :bullettrain_side: ' * 5, use_aliases=True))
         time.sleep(15)
 
