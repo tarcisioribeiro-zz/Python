@@ -6,6 +6,7 @@ import pygame
 def Caminhão():
     decisão = ''
     while decisão != 'DESVIAR':
+        print()
         decisão = str(
             input('Digite desviar para desviar do caminhão: ')).upper()
         time.sleep(1)
