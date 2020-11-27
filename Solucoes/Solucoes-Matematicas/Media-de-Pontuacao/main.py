@@ -2,7 +2,7 @@
 import time
 import emoji
 import pygame
-
+from source.menu import Menu
 # Iniciação do Player
 pygame.mixer.init()
 pygame.mixer.music.load('library/sounds/principal/hino_cbf_rj.mp3')
@@ -19,3 +19,4 @@ time.sleep(1)
 print('Bem vindo à calculadora de pontos do futebol brasileiro!')
 time.sleep(1)
 print()
+Menu()
