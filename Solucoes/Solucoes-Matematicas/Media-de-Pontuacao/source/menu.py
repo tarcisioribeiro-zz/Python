@@ -1,6 +1,7 @@
 import emoji
 import time
 from source.times.atlético import Atlético
+from source.times.atlético_goianiense import Atlético_Goianiense
 
 def Menu():
     escolha = 0
@@ -11,4 +12,6 @@ def Menu():
         print()
         if(escolha == 1):
             Atlético()
+        elif(escolha == 2):
+            Atlético_Goianiense()    
     pass
