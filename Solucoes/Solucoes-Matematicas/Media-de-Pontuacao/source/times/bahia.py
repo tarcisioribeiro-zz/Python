@@ -7,7 +7,7 @@ def Bahia():
     time.sleep(1)
     pygame.mixer.music.load('library/sounds/times/bahia.mp3')
     pygame.mixer.music.play()
-    time.sleep(18)
+    time.sleep(30)
     print('Bahia!!!')
     time.sleep(1)
     print()

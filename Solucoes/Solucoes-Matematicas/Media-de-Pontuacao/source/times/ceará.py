@@ -7,7 +7,7 @@ def Ceará():
     time.sleep(1)
     pygame.mixer.music.load('library/sounds/times/ceará.mp3')
     pygame.mixer.music.play()
-    time.sleep(13)
+    time.sleep(17)
     print('Vozão!!!')
     time.sleep(1)
     print()
