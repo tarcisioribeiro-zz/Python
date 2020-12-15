@@ -33,4 +33,12 @@ def Menu():
             Bragantino()
         elif(escolha == 7):
             Ceará()
+        elif(escolha == 8):
+            Corinthians()
+        elif(escolha == 9):
+            Coritiba()
+        elif(escolha == 10):
+            Flamengo()
+        elif(escolha == 11):
+            Fluminense()
     pass
