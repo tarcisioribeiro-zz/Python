@@ -3,7 +3,10 @@ import time
 from source.times.atlético import Atlético
 from source.times.atlético_goianiense import Atlético_Goianiense
 from source.times.atlético_paranaense import Atlético_Paranaense
-
+from source.times.bahia import Bahia
+from source.times.botafogo import Botafogo
+from source.times.bragantino import Bragantino
+from source.times.ceará import Ceará
 
 def Menu():
     escolha = 0
@@ -18,4 +21,12 @@ def Menu():
             Atlético_Goianiense()
         elif(escolha == 3):
             Atlético_Paranaense()
+        elif(escolha == 4):
+            Bahia()
+        elif(escolha == 5):
+            Botafogo()
+        elif(escolha == 6):
+            Bragantino()
+        elif(escolha == 7):
+            Ceará()
     pass
