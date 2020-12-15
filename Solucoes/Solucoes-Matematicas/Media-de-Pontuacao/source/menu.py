@@ -7,6 +7,10 @@ from source.times.bahia import Bahia
 from source.times.botafogo import Botafogo
 from source.times.bragantino import Bragantino
 from source.times.ceará import Ceará
+from source.times.corinthians import Corinthians
+from source.times.coritiba import Coritiba
+from source.times.flamengo import Flamengo
+from source.times.fluminense import Fluminense
 
 def Menu():
     escolha = 0
