@@ -55,7 +55,7 @@ def Menu():
         elif(escolha == 14):
             Grêmio()
         elif(escolha == 15):
-            Internacional
+            Internacional()
         elif(escolha == 16):
             Palmeiras()
         elif(escolha == 17):
