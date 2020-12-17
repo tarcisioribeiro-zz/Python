@@ -67,5 +67,5 @@ def Menu():
         elif(escolha == 19):
             Sport()
         elif(escolha == 20):
-            
+            Vasco()
     pass
