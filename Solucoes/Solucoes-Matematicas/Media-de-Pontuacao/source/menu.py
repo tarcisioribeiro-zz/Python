@@ -17,7 +17,9 @@ from source.times.grêmio import Grêmio
 from source.times.internacional import Internacional
 from source.times.palmeiras import Palmeiras
 from source.times.santos import Santos
-from source.times.são_paulo	 import São_Paulo
+from source.times.são_paulo import São_Paulo
+from source.times.sport import Sport
+from source.times.vasco import Vasco
 
 def Menu():
     escolha = 0
@@ -62,4 +64,8 @@ def Menu():
             Santos()
         elif(escolha == 18):
             São_Paulo()
+        elif(escolha == 19):
+            Sport()
+        elif(escolha == 20):
+            
     pass
