@@ -11,6 +11,7 @@ from source.times.corinthians import Corinthians
 from source.times.coritiba import Coritiba
 from source.times.flamengo import Flamengo
 from source.times.fluminense import Fluminense
+from source.times.fortaleza import Fortaleza
 
 def Menu():
     escolha = 0
@@ -41,4 +42,6 @@ def Menu():
             Flamengo()
         elif(escolha == 11):
             Fluminense()
+        elif(escolha == 12):
+            Fortaleza()
     pass
