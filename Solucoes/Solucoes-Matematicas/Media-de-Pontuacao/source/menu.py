@@ -16,6 +16,7 @@ from source.times.goiás import Goiás
 from source.times.grêmio import Grêmio
 from source.times.internacional import Internacional
 from source.times.palmeiras import Palmeiras
+from source.times.santos import Santos
 
 def Menu():
     escolha = 0
@@ -56,4 +57,6 @@ def Menu():
             Internacional
         elif(escolha == 16):
             Palmeiras()
+        elif(escolha == 17):
+            Santos()
     pass
