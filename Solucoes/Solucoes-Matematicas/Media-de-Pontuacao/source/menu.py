@@ -15,6 +15,7 @@ from source.times.fortaleza import Fortaleza
 from source.times.goiás import Goiás
 from source.times.grêmio import Grêmio
 from source.times.internacional import Internacional
+from source.times.palmeiras import Palmeiras
 
 def Menu():
     escolha = 0
@@ -53,4 +54,6 @@ def Menu():
             Grêmio()
         elif(escolha == 15):
             Internacional
+        elif(escolha == 16):
+            Palmeiras()
     pass
