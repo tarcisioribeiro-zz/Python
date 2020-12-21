@@ -28,5 +28,9 @@ def Copa_do_Brasil():
         elif(fase == 'SEMI'):
             prêmio = 22000000
         elif(fase == 'FINAL'):
-            prêmio = 30000000    
+            prêmio = 30000000
     pass
+    time.sleep(1)
+    print()
+    time.sleep(1)
+    print('A premiação do seu time é de R$ {}.'.format(prêmio))
