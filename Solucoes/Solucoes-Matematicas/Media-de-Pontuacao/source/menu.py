@@ -20,6 +20,7 @@ from source.times.santos import Santos
 from source.times.são_paulo import São_Paulo
 from source.times.sport import Sport
 from source.times.vasco import Vasco
+from source.competições.escolha import Escolha
 
 def Menu():
     escolha = 0
@@ -30,42 +31,62 @@ def Menu():
         print()
         if(escolha == 1):
             Atlético()
+            Escolha()
         elif(escolha == 2):
             Atlético_Goianiense()
+            Escolha()
         elif(escolha == 3):
             Atlético_Paranaense()
+            Escolha()
         elif(escolha == 4):
             Bahia()
+            Escolha()
         elif(escolha == 5):
             Botafogo()
+            Escolha()
         elif(escolha == 6):
             Bragantino()
+            Escolha()
         elif(escolha == 7):
             Ceará()
+            Escolha()
         elif(escolha == 8):
             Corinthians()
+            Escolha()
         elif(escolha == 9):
             Coritiba()
+            Escolha()
         elif(escolha == 10):
             Flamengo()
+            Escolha()
         elif(escolha == 11):
             Fluminense()
+            Escolha()
         elif(escolha == 12):
             Fortaleza()
+            Escolha()
         elif(escolha == 13):
             Goiás()
+            Escolha()
         elif(escolha == 14):
             Grêmio()
+            Escolha()
         elif(escolha == 15):
             Internacional()
+            Escolha()
         elif(escolha == 16):
             Palmeiras()
+            Escolha()
         elif(escolha == 17):
             Santos()
+            Escolha()
         elif(escolha == 18):
             São_Paulo()
+            Escolha()
         elif(escolha == 19):
             Sport()
+            Escolha()
         elif(escolha == 20):
             Vasco()
+            Escolha()
     pass
