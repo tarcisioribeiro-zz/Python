@@ -11,5 +11,5 @@ def Copa_do_Brasil():
     print()
     fase = ''
     prêmio = 0
-    
+    fase = str(input('Informe em que fase seu time terminou a competição:\n\n1ª Fase - (Digite primeira)\n2ª Fase - (Digite segunda)\n3ª Fase - (Digite 3ª Fase)\n4ª Fase - (Digite quarta)\nOitavas - (Digite oitavas)\nQuartas - (Digite quartas0'))
     pass
