@@ -17,15 +17,17 @@ def Brasileirão():
     pygame.mixer.music.play()
     time.sleep(15)
     for i in range(1, 39):
-        resultado = str(input(
-            'Você deve informar o prognóstico da partida: \n\nDerrota\nEmpate\nVitória\n\nDigite aqui o resultado da {} partida: '.format(i))).upper()
+        print()
         time.sleep(1)
-        if(resultado == 'DERROTA'):
+        resultado = str(input(
+            'Você deve informar o prognóstico da partida: \n\nD - Derrota\nE - Empate\nV - Vitória\n\nDigite aqui o resultado da {}ª partida: '.format(i))).upper()
+        time.sleep(1)
+        if(resultado == 'D'):
             derrotas += 1
-        elif(resultado == 'EMPATE'):
+        elif(resultado == 'E'):
             empates += 1
             pontuação += 1
-        elif(resultado == 'VITÓRIA'):
+        elif(resultado == 'V'):
             vitórias += 1
             pontuação += 3
         else:
