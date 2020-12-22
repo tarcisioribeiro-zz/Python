@@ -21,11 +21,13 @@ from source.times.são_paulo import São_Paulo
 from source.times.sport import Sport
 from source.times.vasco import Vasco
 from source.escolha import Escolha
+from source.impressão_times import Impressão_Times
 
 def Menu():
     escolha = 0
     print()
     while escolha != 999:
+        Impressão_Times()
         escolha = int(input('Informe sua escolha: '))
         time.sleep(1)
         print()
