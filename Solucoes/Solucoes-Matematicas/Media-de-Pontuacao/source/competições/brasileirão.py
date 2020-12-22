@@ -34,5 +34,5 @@ def Brasileirão():
             print('Não reconheço esse prognóstico. Tente novamente.')
             time.sleep(1)
     print('A pontuação do seu time foi de {} pontos, com {} derrotas, {} empates e {} vitórias. O aproveitamento foi de {:.2f}%.')
-    time.sleep()
+    time.sleep(1)
     pass
