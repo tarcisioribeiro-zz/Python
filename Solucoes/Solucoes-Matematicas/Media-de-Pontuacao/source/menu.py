@@ -20,7 +20,7 @@ from source.times.santos import Santos
 from source.times.são_paulo import São_Paulo
 from source.times.sport import Sport
 from source.times.vasco import Vasco
-from source.competições.escolha import Escolha
+from source.escolha import Escolha
 
 def Menu():
     escolha = 0
