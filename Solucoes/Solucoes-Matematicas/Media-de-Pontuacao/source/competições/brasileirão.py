@@ -10,6 +10,8 @@ def Brasileirão():
     pontuação = 0
     resultado = ''
     time.sleep(1)
+    print()
+    time.sleep(1)
     print(emoji.emojize('Bem vindo ao Brasileirão!' + ' :soccer: ' * 3, use_aliases=True))
     pygame.mixer.music.load('library/sounds/competições/brasileirão.mp3')
     pygame.mixer.music.play()
