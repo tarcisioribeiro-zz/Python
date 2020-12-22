@@ -13,10 +13,10 @@ def Brasileirão():
     print(emoji.emojize('Bem vindo ao Brasileirão!' + ' :soccer: ' * 3, use_aliases=True))
     pygame.mixer.music.load('library/sounds/competições/brasileirão.mp3')
     pygame.mixer.music.play()
-    time.sleep(30)
+    time.sleep(15)
     for i in range(1, 39):
         resultado = str(input(
-            'Você deve informar o prognóstico da partida: \n\nDerrota\nEmpate\nVitória\n\nDigite aqui o resultado da {} partida: ')).upper()
+            'Você deve informar o prognóstico da partida: \n\nDerrota\nEmpate\nVitória\n\nDigite aqui o resultado da {} partida: '.format(i))).upper()
         time.sleep(1)
         if(resultado == 'DERROTA'):
             derrotas += 1
