@@ -24,6 +24,6 @@ def Praia():
             sleep(1)
         print()
     else:
-        print(emoji.emojize(':boom::boom::boom::boom::boom:', use_aliases=True))
+        print(emoji.emojize(':boom:' * 5, use_aliases=True))
         print()
     pass
