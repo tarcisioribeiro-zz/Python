@@ -2,7 +2,7 @@ from time import sleep
 import emoji
 
 
-def funcname():
+def Floresta():
     print()
     print(emoji.emojize('Fase da floresta ' +
                         (':evergreen_tree:' * 5), use_aliases=True))
