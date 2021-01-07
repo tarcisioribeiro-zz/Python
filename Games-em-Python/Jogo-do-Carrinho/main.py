@@ -7,8 +7,6 @@ print()
 fase = int(input(emoji.emojize(
     'Qual fase deseja jogar? \n\n[ 1 ] Fase da floresta :evergreen_tree:\n[ 2 ] Fase da praia :palm_tree:\n[ 3 ] Fase do deserto :cactus:\n\nDigite aqui sua opção: ', use_aliases=True)))
 print()
-if(fase == 1):
-    
 if(fase == 2):
     print()
     print(emoji.emojize('Fase da praia ' + (':palm_tree:' * 5), use_aliases=True))

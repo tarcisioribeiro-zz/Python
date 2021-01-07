@@ -1,8 +1,9 @@
-def funcname(parameter_list):
-    
-    pass
+from time import sleep
+import emoji
 
-print()
+
+def funcname():
+    print()
     print(emoji.emojize('Fase da floresta ' +
                         (':evergreen_tree:' * 5), use_aliases=True))
     print()
@@ -25,5 +26,6 @@ print()
             sleep(1)
         print()
     else:
-        print(emoji.emojize(':boom::boom::boom::boom::boom:', use_aliases=True))
+        print(emoji.emojize(':boom:' * 5, use_aliases=True))
         print()
+    pass
