@@ -1,10 +1,16 @@
+from _typeshed import SupportsKeysAndGetItem
+from typing import MutableSequence
 import emoji
 from time import sleep
+from pygame import mixer
 
 def Deserto():
     print()
     print(emoji.emojize('Fase do deserto ' + (':cactus:' * 5), use_aliases=True))
     print()
+    mixer.music.load('library/sounds/fases/deserto.mp3')
+    mixer.music.play()
+    sleep(20)
     for i in range(11, 1, -1):
         print(emoji.emojize(':cactus:' + ('_' * i) + ':red_car:', use_aliases=True))
         sleep(1)
