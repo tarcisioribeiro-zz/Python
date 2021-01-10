@@ -1,8 +1,7 @@
-from _typeshed import SupportsKeysAndGetItem
-from typing import MutableSequence
 import emoji
 from time import sleep
 from pygame import mixer
+
 
 def Deserto():
     print()

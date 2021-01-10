@@ -7,4 +7,4 @@ print(emoji.emojize('Bem vindo ao jogo do carrinho! :red_car:', use_aliases=True
 sleep(1)
 print()
 sleep(1)
-Seletor
+Seletor()
