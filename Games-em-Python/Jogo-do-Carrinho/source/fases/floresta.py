@@ -1,5 +1,6 @@
 from time import sleep
 import emoji
+from pygame import mixer
 
 
 def Floresta():
@@ -7,6 +8,10 @@ def Floresta():
     print(emoji.emojize('Fase da floresta ' +
                         (':evergreen_tree:' * 5), use_aliases=True))
     print()
+    mixer.init()
+    mixer.music.load('library/sounds/floresta.mp3')
+    mixer.music.play()
+    sleep()
     for i in range(11, 1, -1):
         print(emoji.emojize(':evergreen_tree:' +
                             ('_' * i) + ':red_car:', use_aliases=True))
