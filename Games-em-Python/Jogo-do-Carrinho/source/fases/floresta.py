@@ -10,7 +10,7 @@ def Floresta():
     print()
     mixer.init()
     mixer.music.load('library/sounds/floresta.mp3')
-    mixer.music.play()
+    mixer.music.play(36)
     sleep()
     for i in range(11, 1, -1):
         print(emoji.emojize(':evergreen_tree:' +
