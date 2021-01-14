@@ -7,6 +7,7 @@ def Deserto():
     print()
     print(emoji.emojize('Fase do deserto ' + (':cactus:' * 5), use_aliases=True))
     print()
+    mixer.init()
     mixer.music.load('library/sounds/fases/deserto.mp3')
     mixer.music.play()
     sleep(20)
