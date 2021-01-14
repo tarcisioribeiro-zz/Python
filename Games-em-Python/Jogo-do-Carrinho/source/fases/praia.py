@@ -1,10 +1,13 @@
 import emoji
 from time import sleep
-
+from pygame import mixer
 def Praia():
     print()
     print(emoji.emojize('Fase da praia ' + (':palm_tree:' * 5), use_aliases=True))
     print()
+    mixer.init()
+    mixer.music.load('library/sounds/praia.mp3')
+    mixer.music.play(35)
     for i in range(11, 1, -1):
         print(emoji.emojize(':palm_tree:' + ('_' * i) +
                             ':red_car:', use_aliases=True))
