@@ -13,7 +13,7 @@ while True:
     total += preço
     if preço > 1000:
         maisdemil += 1
-    if cont  == 1 or preço < menor:
+    if cont == 1 or preço < menor:
         menor = preço
         barato = produto
     resp = ' '
