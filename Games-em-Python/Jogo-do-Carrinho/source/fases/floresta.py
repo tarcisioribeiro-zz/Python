@@ -9,7 +9,7 @@ def Floresta():
                         (':evergreen_tree:' * 5), use_aliases=True))
     print()
     mixer.init()
-    mixer.music.load('library/sounds/floresta.mp3')
+    mixer.music.load('library/sounds/fases/floresta.mp3')
     mixer.music.play(36)
     sleep()
     for i in range(11, 1, -1):
