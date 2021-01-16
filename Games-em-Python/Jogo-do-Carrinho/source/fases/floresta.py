@@ -11,7 +11,7 @@ def Floresta():
     mixer.init()
     mixer.music.load('library/sounds/fases/floresta.mp3')
     mixer.music.play(36)
-    sleep()
+    sleep(1)
     for i in range(11, 1, -1):
         print(emoji.emojize(':evergreen_tree:' +
                             ('_' * i) + ':red_car:', use_aliases=True))
