@@ -1,6 +1,8 @@
 import emoji
 from time import sleep
 from pygame import mixer
+
+
 def Praia():
     print()
     print(emoji.emojize('Fase da praia ' + (':palm_tree:' * 5), use_aliases=True))
