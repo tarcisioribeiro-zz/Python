@@ -10,7 +10,7 @@ def Seletor():
         fase = ' '
         while fase not in '123SAIR':
             fase = str(input(emoji.emojize(
-                'Qual fase deseja jogar? \n\n[ 1 ] Fase da floresta :evergreen_tree:\n[ 2 ] Fase da praia :palm_tree:\n[ 3 ] Fase do deserto :cactus:\n\nDigite aqui sua opção: ', use_aliases=True)))
+                'Qual fase deseja jogar? \n\n[ 1 ] Fase da floresta :evergreen_tree:\n[ 2 ] Fase da praia :palm_tree:\n[ 3 ] Fase do deserto :cactus:\nDigite SAIR para sair do jogo.\n\nDigite aqui sua opção: ', use_aliases=True)))
         print()
         sleep(1)
         if fase == 'SAIR':
