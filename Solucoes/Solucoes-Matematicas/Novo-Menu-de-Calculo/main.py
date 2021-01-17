@@ -96,13 +96,13 @@ while True:
         for i in range(0, tamanhovetor):
             sleep(1)
             vetor1.append(
-                float(input('Informe o valor da posição do vetor: ')))
+                float(input(f'Informe o valor da {i}ª posição do vetor: ')))
         resultado = menor_elemento(vetor1)
 
         sleep(1)
         print()
         sleep(1)
-        print('O menor elemento do vetor é', int(resultado))
+        print(f'O menor elemento do vetor é {int(resultado)}.')
         sleep(1)
         pass
 
