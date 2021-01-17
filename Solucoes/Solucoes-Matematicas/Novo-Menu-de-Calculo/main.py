@@ -21,15 +21,16 @@ while True:
                 print('Informe um número inteiro entre 1 e 9.')
             if(numero >= 10):
                 print('Informe um número inteiro entre 1 e 9.')
-            if(numero >= 1 and numero <= 9):
-                for i in range(1, 10):
+            if(numero >= 1 and numero <= 10):
+                for i in range(1, 11):
                     print(i, '*', numero, '=', i*numero)
                     print()
         numero_escolhido = int(input('Informe o número: '))
         print()
         enviar_tabuada = calcular_tabuada(numero_escolhido)
+        pass
 
-    if(opção == 'B'):
+    if opção == 'B':
         def calcular_IMC(_peso, _altura):
             peso = float(_peso)
             altura = float(_altura)
@@ -42,8 +43,9 @@ while True:
         enviardados_IMC = calcular_IMC(str_peso, str_altura)
         print('O seu IMC é de %f' % enviardados_IMC)
         print()
+        pass
 
-    if(opção == 'C' or opção == 'c'):
+    if opção == 'C':
         def calcular_fatorial(_numero, _resultado):
             numero = _numero
             resultado = _resultado
@@ -57,8 +59,9 @@ while True:
         resultado = calcular_fatorial(escolha_numero, _fatorial)
         print('O fatorial de', escolha_numero, 'é igual a', resultado)
         print()
+        pass
 
-    if(opção == 'D' or opção == 'd'):
+    if opção == 'D':
         def menor_elemento(_vetor):
             vetor = _vetor
             menorvalor = min(vetor)
@@ -73,8 +76,9 @@ while True:
         print()
         print('O menor elemento do vetor é', int(resultado))
         print()
+        pass
 
-    if(opção == 'E' or opção == 'e'):
+    if opção == 'E':
         def media_impar(vetor_media, _totalimpar, _quantimpar):
             vetormedia = vetor_media
             totalimpar = _totalimpar
@@ -94,4 +98,4 @@ while True:
         print()
         _media = media_impar(_vetor, _timpar, _qimpar)
         print('A média dos elementos ímpares do vetor é de', _media)
-        break
+        pass
