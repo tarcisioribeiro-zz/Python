@@ -1,6 +1,8 @@
+from time import sleep
+
 print('Menu')
 print()
-print('A _ Calcular a tabuada de um número de 1 a 9.')
+print('A _ Calcular a tabuada de um número de 1 a 10.')
 print('B _ Calcular o índice de massa corporal.')
 print('C _ Calcular o fatorial de um número inteiro.')
 print('D _ Descobrir o menor elemento de um vetor.')
@@ -12,21 +14,27 @@ opção = ' '
 
 
 while True:
+    sleep(1)
     opção = str(input('Informe sua opção:')).upper()
+    sleep(1)
     print()
     if opção == 'A':
         def calcular_tabuada(_numero):
             numero = int(_numero)
             if(numero <= 0):
+                sleep(1)
                 print('Informe um número inteiro entre 1 e 9.')
             if(numero >= 10):
+                sleep(1)
                 print('Informe um número inteiro entre 1 e 9.')
             if(numero >= 1 and numero <= 10):
                 for i in range(1, 11):
                     print(i, '*', numero, '=', i*numero)
-                    print()
+                    sleep(1)
+        sleep(1)
         numero_escolhido = int(input('Informe o número: '))
         print()
+        sleep(1)
         enviar_tabuada = calcular_tabuada(numero_escolhido)
         pass
 
