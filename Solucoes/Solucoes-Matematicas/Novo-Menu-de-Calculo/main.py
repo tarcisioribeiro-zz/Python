@@ -1,4 +1,10 @@
 from time import sleep
+from emoji import emojize
+
+print()
+sleep(1)
+print(emojize('Bem vindo ao nosso programa! :earth_americas:', use_aliases=True))
+sleep(1)
 
 
 opção = ' '
@@ -22,11 +28,13 @@ while True:
     print('E _ Obter a média dos elementos ímpares de um vetor de 20 posições.')
     sleep(1)
     print()
+    print('Digite "S" para sair.')
+    sleep(1)
+    print()
     sleep(1)
     opção = str(input('Informe sua opção: ')).upper()
     sleep(1)
 
-    
     if opção == 'A':
         def calcular_tabuada(_numero):
             numero = int(_numero)
@@ -125,7 +133,8 @@ while True:
         _timpar = 0
         _qimpar = 0
         for i in range(1, 21):
-            _vetor.append(int(input('Informe o valor da {}ª posição: '.format(i))))
+            _vetor.append(
+                int(input('Informe o valor da {}ª posição: '.format(i))))
         for i in range(0, 20):
             if(_vetor[i] % 2 == 1):
                 _timpar += _vetor[i]
@@ -137,3 +146,11 @@ while True:
         print('A média dos elementos ímpares do vetor é de {_media}.')
         sleep(1)
         pass
+
+    elif opção == 'S':
+        print()
+        sleep(1)
+        print('Desligando o programa...')
+        sleep(3)
+        print()
+        break
