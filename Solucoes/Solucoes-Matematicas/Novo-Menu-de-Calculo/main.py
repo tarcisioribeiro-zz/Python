@@ -7,15 +7,16 @@ sleep(1)
 print('Menu\n\nA _ Calcular a tabuada de um número de 1 a 9.\nB _ Calcular o índice de massa corporal.\nC _ Calcular o fatorial de um número inteiro.\nD _ Descobrir o menor elemento de um vetor.\nE _ Obter a média dos elementos ímpares de um vetor de 20 posições.')
 sleep(1)
 
-opção = ' '
-while(opção == ' ' or opção not in 'ABCDE'):
+while True:
+    opção = ' '
     print()
     sleep(1)
     opção = input('Informe sua opção: ').upper()
     sleep(1)
-    print()
-    if(opção != 'A' and opção != 'a' and opção != 'B' and opção != 'b' and opção != 'C' and opção != 'c' and opção != 'D' and opção != 'd' and opção != 'E' and opção != 'e'):
+    while opção not in 'ABCDE':
+        sleep(1)
         print('Informe uma opção válida.')
+        sleep(1)
         print()
     if(opção == 'A' or opção == 'a'):
         def calcular_tabuada(_numero):
