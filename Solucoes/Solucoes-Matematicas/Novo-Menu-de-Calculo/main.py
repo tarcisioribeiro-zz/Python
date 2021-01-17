@@ -1,24 +1,23 @@
 from time import sleep
 from emoji import emojize
 
-sleep(1)
-print()
-sleep(1)
-print('Menu\n\nA _ Calcular a tabuada de um número de 1 a 9.\nB _ Calcular o índice de massa corporal.\nC _ Calcular o fatorial de um número inteiro.\nD _ Descobrir o menor elemento de um vetor.\nE _ Obter a média dos elementos ímpares de um vetor de 20 posições.')
-sleep(1)
+
 
 while True:
     opção = ' '
+    sleep(1)
     print()
     sleep(1)
-    opção = input('Informe sua opção: ').upper()
+    print('Menu\n\nA _ Calcular a tabuada de um número de 1 a 9.\nB _ Calcular o índice de massa corporal.\nC _ Calcular o fatorial de um número inteiro.\nD _ Descobrir o menor elemento de um vetor.\nE _ Obter a média dos elementos ímpares de um vetor de 20 posições.')
+    sleep(1)
+    opção = str(input('Informe sua opção: ')).upper()
     sleep(1)
     while opção not in 'ABCDE':
         sleep(1)
         print('Informe uma opção válida.')
         sleep(1)
         print()
-    if(opção == 'A' or opção == 'a'):
+    if opção == 'A':
         def calcular_tabuada(_numero):
             numero = int(_numero)
             if(numero <= 0):
