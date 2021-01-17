@@ -76,7 +76,7 @@ while True:
             _fatorial *= i
         resultado = calcular_fatorial(escolha_numero, _fatorial)
         sleep(1)
-        print('O fatorial de', escolha_numero, 'é igual a', resultado)
+        print(f'O fatorial de {escolha_numero} é igual {resultado}.')
         sleep(1)
         pass
 
