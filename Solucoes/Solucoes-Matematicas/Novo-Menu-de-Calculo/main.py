@@ -43,18 +43,21 @@ while True:
         def calcular_IMC(_peso, _altura):
             peso = float(_peso)
             altura = float(_altura)
-            IMC = peso/(altura**altura)
-            return IMC
+            imc = round(peso//(altura ** altura))
+            return imc
 
         sleep(1)
         print()
         sleep(1)
         str_peso = float(input('Informe o seu peso: '))
+        sleep(1)
         print()
+        sleep(1)
         str_altura = float(input('Informe a sua altura: '))
+        sleep(1)
         print()
         enviardados_IMC = calcular_IMC(str_peso, str_altura)
-        print('O seu IMC é de %f' % enviardados_IMC)
+        print(f'O seu IMC é de {enviardados_IMC}.')
         pass
 
     elif opção == 'C':
