@@ -5,15 +5,19 @@ sleep(1)
 print()
 sleep(1)
 print('Menu\n\nA _ Calcular a tabuada de um número de 1 a 9.\nB _ Calcular o índice de massa corporal.\nC _ Calcular o fatorial de um número inteiro.\nD _ Descobrir o menor elemento de um vetor.\nE _ Obter a média dos elementos ímpares de um vetor de 20 posições.')
+sleep(1)
 
-opc = ''
-while(opc == '' or opc != 'A' or opc != 'a' or opc != 'B' or opc != 'b' or opc != 'C' or opc != 'c' or opc != 'D' or opc != 'd' or opc != 'E' or opc != 'e'):
-    opc = input('Informe sua opção:')
+opção = ' '
+while(opção == ' ' or opção not in 'ABCDE'):
     print()
-    if(opc != 'A' and opc != 'a' and opc != 'B' and opc != 'b' and opc != 'C' and opc != 'c' and opc != 'D' and opc != 'd' and opc != 'E' and opc != 'e'):
+    sleep(1)
+    opção = input('Informe sua opção: ').upper()
+    sleep(1)
+    print()
+    if(opção != 'A' and opção != 'a' and opção != 'B' and opção != 'b' and opção != 'C' and opção != 'c' and opção != 'D' and opção != 'd' and opção != 'E' and opção != 'e'):
         print('Informe uma opção válida.')
         print()
-    if(opc == 'A' or opc == 'a'):
+    if(opção == 'A' or opção == 'a'):
         def calcular_tabuada(_numero):
             numero = int(_numero)
             if(numero <= 0):
@@ -27,7 +31,7 @@ while(opc == '' or opc != 'A' or opc != 'a' or opc != 'B' or opc != 'b' or opc !
         numero_escolhido = int(input('Informe o número: '))
         print()
         enviar_tabuada = calcular_tabuada(numero_escolhido)
-    if(opc == 'B'):
+    if(opção == 'B'):
         def calcular_IMC(_peso, _altura):
             peso = float(_peso)
             altura = float(_altura)
@@ -40,7 +44,7 @@ while(opc == '' or opc != 'A' or opc != 'a' or opc != 'B' or opc != 'b' or opc !
         enviardados_IMC = calcular_IMC(str_peso, str_altura)
         print('O seu IMC é de %f' % enviardados_IMC)
         print()
-    if(opc == 'C' or opc == 'c'):
+    if(opção == 'C' or opção == 'c'):
         def calcular_fatorial(_numero, _resultado):
             numero = _numero
             resultado = _resultado
@@ -54,7 +58,7 @@ while(opc == '' or opc != 'A' or opc != 'a' or opc != 'B' or opc != 'b' or opc !
         resultado = calcular_fatorial(escolha_numero, _fatorial)
         print('O fatorial de', escolha_numero, 'é igual a', resultado)
         print()
-    if(opc == 'D' or opc == 'd'):
+    if(opção == 'D' or opção == 'd'):
         def menor_elemento(_vetor):
             vetor = _vetor
             menorvalor = min(vetor)
@@ -69,7 +73,7 @@ while(opc == '' or opc != 'A' or opc != 'a' or opc != 'B' or opc != 'b' or opc !
         print()
         print('O menor elemento do vetor é', int(resultado))
         print()
-    if(opc == 'E' or opc == 'e'):
+    if(opção == 'E' or opção == 'e'):
         def media_impar(vetor_media, _totalimpar, _quantimpar):
             vetormedia = vetor_media
             totalimpar = _totalimpar
