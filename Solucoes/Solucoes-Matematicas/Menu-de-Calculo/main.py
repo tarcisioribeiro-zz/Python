@@ -41,6 +41,7 @@ while opção != 0:
         sleep(1)
         print('Desligando calculadora...')
         sleep(1)
+        print()
     else:
         print('Não reconheci essa opção. Tente novamente')
         sleep(1)
