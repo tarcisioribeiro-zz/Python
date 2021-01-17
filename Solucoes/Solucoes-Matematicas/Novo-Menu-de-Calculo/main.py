@@ -1,19 +1,26 @@
 from time import sleep
 
-print('Menu')
-print()
-print('A _ Calcular a tabuada de um número de 1 a 10.')
-print('B _ Calcular o índice de massa corporal.')
-print('C _ Calcular o fatorial de um número inteiro.')
-print('D _ Descobrir o menor elemento de um vetor.')
-print('E _ Obter a média dos elementos ímpares de um vetor de 20 posições.')
-print()
-
 
 opção = ' '
 
 
 while True:
+    print()
+    sleep(1)
+    print('Menu')
+    sleep(1)
+    print()
+    sleep(1)
+    print('A _ Calcular a tabuada de um número de 1 a 10.')
+    sleep(1)
+    print('B _ Calcular o índice de massa corporal.')
+    sleep(1)
+    print('C _ Calcular o fatorial de um número inteiro.')
+    sleep(1)
+    print('D _ Descobrir o menor elemento de um vetor.')
+    sleep(1)
+    print('E _ Obter a média dos elementos ímpares de um vetor de 20 posições.')
+    sleep(1)
     print()
     sleep(1)
     opção = str(input('Informe sua opção: ')).upper()
