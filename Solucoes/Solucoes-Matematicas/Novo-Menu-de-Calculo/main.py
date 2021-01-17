@@ -118,7 +118,7 @@ while True:
         _timpar = 0
         _qimpar = 0
         for i in range(0, 20):
-            _vetor.append(int(input('Informe o valor da posição: ')))
+            _vetor.append(int(input('Informe o valor da {}ª posição: '.format(i))))
         for i in range(0, 20):
             if(_vetor[i] % 2 == 1):
                 _timpar += _vetor[i]
@@ -127,6 +127,6 @@ while True:
         print()
         sleep(1)
         _media = media_impar(_vetor, _timpar, _qimpar)
-        print('A média dos elementos ímpares do vetor é de', _media)
+        print('A média dos elementos ímpares do vetor é de {_media}.')
         sleep(1)
         pass
