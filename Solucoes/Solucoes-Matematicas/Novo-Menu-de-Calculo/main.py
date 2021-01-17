@@ -28,7 +28,7 @@ while True:
             if(numero >= 1 and numero <= 9):
                 for i in range(1, 10):
                     print(i, '*', numero, '=', i*numero)
-                    print()
+                    sleep(1)
         numero_escolhido = int(input('Informe o número: '))
         print()
         enviar_tabuada = calcular_tabuada(numero_escolhido)
