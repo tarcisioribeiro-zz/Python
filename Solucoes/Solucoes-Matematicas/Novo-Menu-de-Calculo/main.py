@@ -1,6 +1,6 @@
 from time import sleep
 from emoji import emojize
-
+from source.tabuada import calcular_tabuada
 
 
 while True:
@@ -18,19 +18,20 @@ while True:
         sleep(1)
         print()
     if opção == 'A':
-        def calcular_tabuada(_numero):
-            numero = int(_numero)
-            if(numero <= 0):
-                print('Informe um número inteiro entre 1 e 9.')
-            if(numero >= 10):
-                print('Informe um número inteiro entre 1 e 9.')
-            if(numero >= 1 and numero <= 9):
-                for i in range(1, 10):
-                    print(i, '*', numero, '=', i*numero)
-                    sleep(1)
-        numero_escolhido = int(input('Informe o número: '))
-        print()
-        enviar_tabuada = calcular_tabuada(numero_escolhido)
+        calcular_tabuada()
+        # def calcular_tabuada(_numero):
+        #     numero = int(_numero)
+        #     if(numero <= 0):
+        #         print('Informe um número inteiro entre 1 e 9.')
+        #     if(numero >= 10):
+        #         print('Informe um número inteiro entre 1 e 9.')
+        #     if(numero >= 1 and numero <= 9):
+        #         for i in range(1, 10):
+        #             print(i, '*', numero, '=', i*numero)
+        #             sleep(1)
+        # numero_escolhido = int(input('Informe o número: '))
+        # print()
+        # enviar_tabuada = calcular_tabuada(numero_escolhido)
     if(opção == 'B'):
         def calcular_IMC(_peso, _altura):
             peso = float(_peso)
