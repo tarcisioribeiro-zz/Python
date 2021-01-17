@@ -93,7 +93,7 @@ while True:
         sleep(1)
         print()
         vetor1 = []
-        for i in range(0, tamanhovetor):
+        for i in range(1, tamanhovetor + 1):
             sleep(1)
             vetor1.append(
                 float(input(f'Informe o valor da {i}ª posição do vetor: ')))
@@ -117,7 +117,7 @@ while True:
         _vetor = []
         _timpar = 0
         _qimpar = 0
-        for i in range(0, 20):
+        for i in range(1, 21):
             _vetor.append(int(input('Informe o valor da {}ª posição: '.format(i))))
         for i in range(0, 20):
             if(_vetor[i] % 2 == 1):
