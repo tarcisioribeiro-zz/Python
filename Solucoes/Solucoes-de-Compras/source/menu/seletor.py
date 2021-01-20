@@ -1,8 +1,8 @@
 from source.generos.terror import Terror
 from source.generos.romance import Romance
 from source.generos.drama import Drama
-from source.generos.acao import Ação
-from source.generos.comedia import Comédia
+from source.generos.acao import Acao
+from source.generos.comedia import Comedia
 from time import sleep
 from emoji import emojize
 from pygame import mixer
@@ -46,9 +46,9 @@ def Seletor():
         sleep(1)
         print('Digite ao menos a primeira letra do gênero, não consigo entender o que quer.')
     if escolha == 'A':
-        Ação()
+        Acao()
     elif escolha == 'C':
-        Comédia()
+        Comedia()
     elif escolha == 'D':
         Drama()
     elif escolha == 'R':
