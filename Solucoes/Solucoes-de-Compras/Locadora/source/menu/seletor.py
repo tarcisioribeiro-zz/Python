@@ -5,7 +5,6 @@ from source.generos.acao import Acao
 from source.generos.comedia import Comedia
 from time import sleep
 from emoji import emojize
-from pygame import mixer
 
 def Seletor():
     print()
