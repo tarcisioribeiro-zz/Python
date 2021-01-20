@@ -40,5 +40,10 @@ def Acao():
         mixer.music.play()
         print('O agente do governo Ethan Hunt e seu mentor, Jim Phelps,\nembarcam em uma missão secreta que toma um rumo desastroso,\nna qual Jim é morto e Ethan torna-se o principal suspeito do\nassassinato. Agora um fugitivo, Hunt recruta o brilhante Luther\nStickell e o piloto Franz Krieger para ajudá-lo a entrar no prédio da\nCIA, fortemente vigiado, a fim de pegar um arquivo de computador\nconfidencial que vai provar sua inocência.')
         sleep(53)
+        
+    print()
+    sleep(1)
+    print('Fechando por hoje...')
+    sleep(3)
 
     pass
