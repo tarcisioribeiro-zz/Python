@@ -5,6 +5,8 @@ def ListaComedia():
     sleep(1)
     print(emojize('Lista de filmes de comédia :laughing: :', use_aliases=True))
     sleep(2)
+    print()
+    sleep(1)
     print('Os Caça-Fantasmas (1984)')
     sleep(1)
     print('Pulp Fiction (1994)')

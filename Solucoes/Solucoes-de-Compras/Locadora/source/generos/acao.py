@@ -1,4 +1,3 @@
-import pygame
 from source.index.lista_acao import ListaAcao
 from time import sleep
 from pygame import mixer
@@ -20,26 +19,26 @@ def Acao():
         print('Digite uma opção válida.')
         sleep(1)
 
-    if escolha in 'OC':
+    if escolha == 'P':
         mixer.init()
-        mixer.music.load('library/sounds/generos/comedia/caca_fantasmas.mp3')
+        mixer.music.load('library/sounds/generos/acao/predador.mp3')
         mixer.music.play()
-        print('Uma equipe de cientistas, Dr. Egon, Dr. Ray e Dr. Peter, perde o\nemprego em uma universidade de Nova York. Eles decidem, então,\nse tornar caçadores de fantasmas e travar uma batalha de alta\ntecnologia com o sobrenatural por dinheiro. Com isso, se deparam\ncom uma porta de entrada para outra dimensão que lançará o mal\nsobre a cidade. Os caça-fantasmas precisam agora salvar Nov\nYork da destruição total.')
-        sleep(28)
+        print('Dutch é contratado pelo governo dos Estados Unidos para resgatar políticos presos na Guatemala.\nMas quando ele e sua equipe chegam na América Central, logo percebem que há algo errado.\nDepois de descobrir vários cadáveres, a equipe descobre que está sendo caçada por uma criatura brutal\ncom força sobre-humana e uma capacidade surpreendente de se camuflar.')
+        sleep(35)
 
-    elif escolha == 'P':
+    elif escolha == 'R':
         mixer.init()
-        mixer.music.load('library/sounds/generos/comedia/pf.mp3')
+        mixer.music.load('library/sounds/generos/acao/rambo.mp3')
         mixer.music.play()
-        print('Os caminhos de vários criminosos se cruzam nestas três histórias\nde Quentin Tarantino. Um pistoleiro se apaixona pela mulher de seu\nchefe, um boxeador não se sai bem em uma luta e um casal tenta\nexecutar um plano de roubo que foge do controle.')
-        sleep(46)
+        print('Rambo está preso em uma penitenciária federal quando recebe\numa proposta: será perdoado e reintegrado ao Exército se\nparticipar de uma missão no Vietnã, onde terá que enfrentar todo\ntipo de inimigos, inclusive oficiais americanos corruptos.')
+        sleep(58)
 
-    elif escolha == 'L':
+    elif escolha == 'M':
         mixer.init()
-        mixer.music.load('library/sounds/generos/comedia/miss_sunshine.mp3')
+        mixer.music.load('library/sounds/generos/acao/mi.mp3')
         mixer.music.play()
-        print('O sonho da pequena Olive é participar do concurso da Pequena\nMiss Sunshine. Ela embarca então em uma divertida e comovente\nviagem com o pai, o tio, o avô, o irmão e a mãe. A família tem que\ncorrer contra o tempo para que Olive chegue no horário e possa\nfazer a apresentação criada pelo seu avô.')
-        sleep(15)
+        print('O agente do governo Ethan Hunt e seu mentor, Jim Phelps,\nembarcam em uma missão secreta que toma um rumo desastroso,\nna qual Jim é morto e Ethan torna-se o principal suspeito do\nassassinato. Agora um fugitivo, Hunt recruta o brilhante Luther\nStickell e o piloto Franz Krieger para ajudá-lo a entrar no prédio da\nCIA, fortemente vigiado, a fim de pegar um arquivo de computador\nconfidencial que vai provar sua inocência.')
+        sleep(53)
         
     print()
     sleep(1)
