@@ -1,6 +1,5 @@
 from emoji import emojize
 from time import sleep
-from pygame import mixer
 
 def ListaAcao():
     sleep(1)
