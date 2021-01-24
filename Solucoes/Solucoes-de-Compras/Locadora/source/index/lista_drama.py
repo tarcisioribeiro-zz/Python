@@ -3,7 +3,7 @@ from time import sleep
 
 def ListaDrama():
     sleep(1)
-    print(emojize('Lista de filmes de drama :cry: :', use_aliases=True))
+    print(emojize('Lista de filmes de Drama :cry: :', use_aliases=True))
     sleep(2)
     print()
     sleep(1)
