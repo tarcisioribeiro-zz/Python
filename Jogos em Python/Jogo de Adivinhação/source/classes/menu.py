@@ -2,7 +2,8 @@ from time import sleep
 from random import randint
 from pygame import mixer
 
-def Menu ():
+
+def Menu():
     mixer.init()
     escolha = int(input("Escolha um número de 0 a 20: "))
     sleep(1)
@@ -23,7 +24,7 @@ def Menu ():
 
             computador = randint(0, 20)
 
-            if computador  == escolha:
+            if computador == escolha:
                 mixer.music.load('library/sounds/acerto.mp3')
                 mixer.music.play()
                 print('Acertei! Hehehe')
@@ -40,3 +41,4 @@ def Menu ():
                 mixer.music.play()
                 print('Droga! errei de novo.')
                 sleep(6)
+    pass
